@@ -1,0 +1,21 @@
+{
+ "name": "c04ma-aio-020",
+ "author": "jlrouzies-fr",
+ "version": "1.0.0",
+ "status": "ready",
+ "character": "c04ma",
+ "slot": "c_10_ma__hair",
+ "base_build": "c04ma",
+ "tags": [
+  "male",
+  "short",
+  "generic",
+  "all-in-one"
+ ],
+ "studio_version": "0.2.1",
+ "description": "C04ma as in the All In One 0.2.0 build (baked geometry + look), applies on any base of the character. Needs Studio 0.2.1 or newer.",
+ "mesh_fingerprint": {
+  "guides": 436,
+  "faces": 822
+ }
+}

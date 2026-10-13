@@ -1,0 +1,22 @@
+{
+ "name": "triss-aio-020",
+ "author": "jlrouzies-fr",
+ "version": "1.0.0",
+ "status": "ready",
+ "character": "triss",
+ "slot": "c_01_wa__triss",
+ "base_build": "triss_l82_fe_user1b",
+ "tags": [
+  "female",
+  "long",
+  "auburn",
+  "path-tracing",
+  "all-in-one"
+ ],
+ "studio_version": "0.2.1",
+ "description": "Triss as in the All In One 0.2.0 build, baked from the Studio geometry. Base build triss_l82_fe_user1b needs the modtriss_lorehair hair mod installed (it is not shipped).",
+ "mesh_fingerprint": {
+  "guides": 246,
+  "faces": 441
+ }
+}

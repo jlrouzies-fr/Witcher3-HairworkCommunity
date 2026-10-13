@@ -1,0 +1,21 @@
+{
+ "name": "keira-aio-020",
+ "author": "jlrouzies-fr",
+ "version": "1.0.0",
+ "status": "ready",
+ "character": "keira",
+ "slot": "c_01_wa__keira_hair",
+ "base_build": "keira",
+ "tags": [
+  "female",
+  "long",
+  "brown",
+  "all-in-one"
+ ],
+ "studio_version": "0.2.1",
+ "description": "Keira as in the All In One 0.2.0 build (baked geometry + look), applies on any base of the character. Needs Studio 0.2.1 or newer.",
+ "mesh_fingerprint": {
+  "guides": 764,
+  "faces": 1271
+ }
+}
