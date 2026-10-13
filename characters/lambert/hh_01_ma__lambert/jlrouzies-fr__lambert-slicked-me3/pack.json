@@ -1,0 +1,21 @@
+{
+ "name": "lambert-slicked-me3",
+ "author": "jlrouzies-fr",
+ "version": "1.0.0",
+ "status": "ready",
+ "character": "lambert",
+ "slot": "hh_01_ma__lambert",
+ "base_build": "lambert_l279_env20off35",
+ "tags": [
+  "male",
+  "short",
+  "slicked",
+  "path-tracing"
+ ],
+ "studio_version": "0.2.0",
+ "description": "Lambert: fuller front hair, groomed in Hairwork Studio. Basis of the All In One 0.2.0 Lambert (path-tracing friendly).",
+ "mesh_fingerprint": {
+  "faces": 886,
+  "guides": 485
+ }
+}

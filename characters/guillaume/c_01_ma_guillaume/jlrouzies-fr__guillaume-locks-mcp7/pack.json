@@ -1,0 +1,16 @@
+{
+ "name": "guillaume-locks-mcp7",
+ "author": "jlrouzies-fr",
+ "version": "1.0.0",
+ "status": "wip",
+ "character": "guillaume",
+ "slot": "c_01_ma_guillaume",
+ "base_build": "guillaume_l124_locks_hug",
+ "tags": [
+  "male",
+  "long",
+  "wavy"
+ ],
+ "studio_version": "0.2.0",
+ "description": "Guillaume: curled locks edited from the locks_hug base build. Work in progress."
+}
