@@ -2,6 +2,156 @@
  "version": 1,
  "packs": [
   {
+   "name": "avallach-aio-020",
+   "author": "jlrouzies-fr",
+   "version": "1.0.0",
+   "status": "ready",
+   "character": "avallach",
+   "slot": "c_07_ma__avallach",
+   "base_build": "avallach",
+   "tags": [
+    "male",
+    "long",
+    "white",
+    "all-in-one"
+   ],
+   "studio_version": "0.2.1",
+   "description": "Avallach as in the All In One 0.2.0 build (baked geometry + look), applies on any base of the character. Needs Studio 0.2.1 or newer.",
+   "mesh_fingerprint": {
+    "guides": 407,
+    "faces": 716
+   },
+   "path": "characters/avallach/c_07_ma__avallach/jlrouzies-fr__avallach-aio-020",
+   "has_preview": true,
+   "commit": "cb91523b3c5fbf456ba1b9ffa8173952131da04d",
+   "sha256": {
+    "pack.json": "efbe5ca17de55247af207e7e4075d70305f3ad79c5758cd3acc1534572c073c8",
+    "edits.hwgroom": "22f64724c9de0b13e32f3d0328d164eddaf2cebecd2d37d6314a729799018705",
+    "preview.jpg": "a2b0ce2d1bf75ef7be36a133194c5426178fd3abfecc075440d610ce2dbd8c3d"
+   },
+   "size": 297749
+  },
+  {
+   "name": "c04ma-aio-020",
+   "author": "jlrouzies-fr",
+   "version": "1.0.0",
+   "status": "ready",
+   "character": "c04ma",
+   "slot": "c_10_ma__hair",
+   "base_build": "c04ma",
+   "tags": [
+    "male",
+    "short",
+    "generic",
+    "all-in-one"
+   ],
+   "studio_version": "0.2.1",
+   "description": "C04ma as in the All In One 0.2.0 build (baked geometry + look), applies on any base of the character. Needs Studio 0.2.1 or newer.",
+   "mesh_fingerprint": {
+    "guides": 436,
+    "faces": 822
+   },
+   "path": "characters/c04ma/c_10_ma__hair/jlrouzies-fr__c04ma-aio-020",
+   "has_preview": true,
+   "commit": "cb91523b3c5fbf456ba1b9ffa8173952131da04d",
+   "sha256": {
+    "pack.json": "ea1a2fe85eedae4663b475c50a271c2e934577db375e1e4b0a45ab0ccd4a4354",
+    "edits.hwgroom": "642993304f23458488817fc1dcc9ce5613f8795558db1d998adebfc7cb4b24d9",
+    "preview.jpg": "1e56771e8d98f330f82bb1f8ee7dde57c24b575a948f709aec9cf1b05ff3fcdd"
+   },
+   "size": 297238
+  },
+  {
+   "name": "ciri-aio-020",
+   "author": "jlrouzies-fr",
+   "version": "1.0.0",
+   "status": "ready",
+   "character": "ciri",
+   "slot": "ciri_hair",
+   "base_build": "ciri",
+   "tags": [
+    "female",
+    "long",
+    "white",
+    "all-in-one"
+   ],
+   "studio_version": "0.2.1",
+   "description": "Ciri as in the All In One 0.2.0 build (baked geometry + look), applies on any base of the character. Needs Studio 0.2.1 or newer.",
+   "mesh_fingerprint": {
+    "guides": 201,
+    "faces": 313
+   },
+   "path": "characters/ciri/ciri_hair/jlrouzies-fr__ciri-aio-020",
+   "has_preview": true,
+   "commit": "cb91523b3c5fbf456ba1b9ffa8173952131da04d",
+   "sha256": {
+    "pack.json": "6174ad7058c38a700f7ec0a7989e8f438adaa46a207702bd46d95949cd23d565",
+    "edits.hwgroom": "e35120359c73fd50df7d037b2cecf87d4746667b913646876ad12d5ba873a95f",
+    "preview.jpg": "2a1a7da5f9388e06af0d0cf884f3654856c74b52fdab4fc7083140e8ae612bdd"
+   },
+   "size": 174289
+  },
+  {
+   "name": "dandelion-aio-020",
+   "author": "jlrouzies-fr",
+   "version": "1.0.0",
+   "status": "ready",
+   "character": "dandelion",
+   "slot": "hh_01_ma__dandelion",
+   "base_build": "dandelion",
+   "tags": [
+    "male",
+    "medium",
+    "brown",
+    "all-in-one"
+   ],
+   "studio_version": "0.2.1",
+   "description": "Dandelion as in the All In One 0.2.0 build (baked geometry + look), applies on any base of the character. Needs Studio 0.2.1 or newer.",
+   "mesh_fingerprint": {
+    "guides": 320,
+    "faces": 566
+   },
+   "path": "characters/dandelion/hh_01_ma__dandelion/jlrouzies-fr__dandelion-aio-020",
+   "has_preview": true,
+   "commit": "cb91523b3c5fbf456ba1b9ffa8173952131da04d",
+   "sha256": {
+    "pack.json": "c720a54ffa23db7b5134dff0bac65ae000b9978b064aca63782a3d5e03534ba1",
+    "edits.hwgroom": "15369d230b27ac2fa883d83288ce17fc13b943a06b67b18f8c7d8488c202bfa9",
+    "preview.jpg": "08dab0b2c0466be0d700c07a70494dab385c5c21ebcd5d3f140e512f6a0afaa9"
+   },
+   "size": 286534
+  },
+  {
+   "name": "emhyr-aio-020",
+   "author": "jlrouzies-fr",
+   "version": "1.0.0",
+   "status": "ready",
+   "character": "emhyr",
+   "slot": "c_07_ma__emhyr_hair",
+   "base_build": "emhyr",
+   "tags": [
+    "male",
+    "short",
+    "black",
+    "all-in-one"
+   ],
+   "studio_version": "0.2.1",
+   "description": "Emhyr as in the All In One 0.2.0 build (baked geometry + look), applies on any base of the character. Needs Studio 0.2.1 or newer.",
+   "mesh_fingerprint": {
+    "guides": 556,
+    "faces": 950
+   },
+   "path": "characters/emhyr/c_07_ma__emhyr_hair/jlrouzies-fr__emhyr-aio-020",
+   "has_preview": true,
+   "commit": "cb91523b3c5fbf456ba1b9ffa8173952131da04d",
+   "sha256": {
+    "pack.json": "c0fae886873e36635f93fff0d7c2865f77e90e5d4c91d1227a85c2bfdeeada6c",
+    "edits.hwgroom": "5fa456ba656eddb090438c5fc57758b7da8aed77bcc4d8547121561d5e535e9a",
+    "preview.jpg": "167e29fd46cfb26f30ca4e04d6d29c2423173723e2457c3059d5378226ea78b0"
+   },
+   "size": 370721
+  },
+  {
    "name": "guillaume-locks-mcp7",
    "author": "jlrouzies-fr",
    "version": "1.0.0",
@@ -18,13 +168,43 @@
    "description": "Guillaume: curled locks edited from the locks_hug base build. Work in progress.",
    "path": "characters/guillaume/c_01_ma_guillaume/jlrouzies-fr__guillaume-locks-mcp7",
    "has_preview": true,
-   "commit": "72ba3ae0855d5922f52fa0381f4a52b27dae8f06",
+   "commit": "cb91523b3c5fbf456ba1b9ffa8173952131da04d",
    "sha256": {
     "pack.json": "9f4fb9b3452e3b6d377f7878e3e520b1bdc3184e80b6850163985c6f4513c6b7",
     "edits.hwgroom": "d14ebb363a89cc647d846b03304317907dcb8178a61da6fbd010b1e4d41550af",
     "preview.jpg": "42efb8341db53a82183892618b798c8d03fad876be7aeb995701b61c64dcd260"
    },
    "size": 505870
+  },
+  {
+   "name": "keira-aio-020",
+   "author": "jlrouzies-fr",
+   "version": "1.0.0",
+   "status": "ready",
+   "character": "keira",
+   "slot": "c_01_wa__keira_hair",
+   "base_build": "keira",
+   "tags": [
+    "female",
+    "long",
+    "brown",
+    "all-in-one"
+   ],
+   "studio_version": "0.2.1",
+   "description": "Keira as in the All In One 0.2.0 build (baked geometry + look), applies on any base of the character. Needs Studio 0.2.1 or newer.",
+   "mesh_fingerprint": {
+    "guides": 764,
+    "faces": 1271
+   },
+   "path": "characters/keira/c_01_wa__keira_hair/jlrouzies-fr__keira-aio-020",
+   "has_preview": true,
+   "commit": "cb91523b3c5fbf456ba1b9ffa8173952131da04d",
+   "sha256": {
+    "pack.json": "c5869005635b188328542edff706debb39850ae77926f390f5cb0ab10004abb4",
+    "edits.hwgroom": "3deb841ca404599c517f8a5e65f1759dd8ac094ed2846341f5c89deb89ebbbb5",
+    "preview.jpg": "29fa3f67958b3668b7b8dbb3fbb006c0469ac921e0684f874f2b5c2e8a8defc9"
+   },
+   "size": 439124
   },
   {
    "name": "lambert-slicked-me3",
@@ -48,13 +228,134 @@
    },
    "path": "characters/lambert/hh_01_ma__lambert/jlrouzies-fr__lambert-slicked-me3",
    "has_preview": true,
-   "commit": "72ba3ae0855d5922f52fa0381f4a52b27dae8f06",
+   "commit": "cb91523b3c5fbf456ba1b9ffa8173952131da04d",
    "sha256": {
     "pack.json": "0681b42fce16f8d1c4ea1e2cbb8e0a84ebb27021464f003c73e7fcc206ac2b26",
     "edits.hwgroom": "9de5b8dc9692aefbb97c953d231dea1b7b7736562bedf919fcc8679f5f9496e1",
     "preview.jpg": "c7bd565d885516ef27a3e061892cb69e8f9e07c322d3e5959ce9842930dce54d"
    },
    "size": 449637
+  },
+  {
+   "name": "regis-aio-020",
+   "author": "jlrouzies-fr",
+   "version": "1.0.0",
+   "status": "ready",
+   "character": "regis",
+   "slot": "c_01_ma__regis",
+   "base_build": "regis",
+   "tags": [
+    "male",
+    "short",
+    "grey",
+    "all-in-one"
+   ],
+   "studio_version": "0.2.1",
+   "description": "Regis as in the All In One 0.2.0 build (baked geometry + look), applies on any base of the character. Needs Studio 0.2.1 or newer.",
+   "mesh_fingerprint": {
+    "guides": 260,
+    "faces": 454
+   },
+   "path": "characters/regis/c_01_ma__regis/jlrouzies-fr__regis-aio-020",
+   "has_preview": true,
+   "commit": "cb91523b3c5fbf456ba1b9ffa8173952131da04d",
+   "sha256": {
+    "pack.json": "9c196c11f904f67df6d7ac7a51b7cb245efd08079d0791ce44a6d01ea3602938",
+    "edits.hwgroom": "57f1e0ccb9c7de7d081dbf183e7374c5f6a88728a1d201a4602cf7f04cebf1d8",
+    "preview.jpg": "ba6dfdcf9cedb37593c8f35b59d3dad0a995553a5cbfa8c0b4414e7ea5b44b45"
+   },
+   "size": 226486
+  },
+  {
+   "name": "sheala-aio-020",
+   "author": "jlrouzies-fr",
+   "version": "1.0.0",
+   "status": "ready",
+   "character": "sheala",
+   "slot": "c_07_ma__emhyr_hair",
+   "base_build": "sheala",
+   "tags": [
+    "female",
+    "long",
+    "black",
+    "all-in-one"
+   ],
+   "studio_version": "0.2.1",
+   "description": "Sheala as in the All In One 0.2.0 build (baked geometry + look), applies on any base of the character. Needs Studio 0.2.1 or newer.",
+   "mesh_fingerprint": {
+    "guides": 375,
+    "faces": 705
+   },
+   "path": "characters/sheala/c_07_ma__emhyr_hair/jlrouzies-fr__sheala-aio-020",
+   "has_preview": true,
+   "commit": "cb91523b3c5fbf456ba1b9ffa8173952131da04d",
+   "sha256": {
+    "pack.json": "6c11f6641eb5c68d72d188bc895f1f101b13d5ce2d8da8572228cae8ad60e0de",
+    "edits.hwgroom": "794c37ec55a91b02fc46b30fc17455f16d1ffc24084e68e41126f3a1dbb9cefa",
+    "preview.jpg": "433e8173501aad396d2233a65be699d603b06ea9f6a78d54e3e9749b44ccc1cc"
+   },
+   "size": 237820
+  },
+  {
+   "name": "triss-aio-020",
+   "author": "jlrouzies-fr",
+   "version": "1.0.0",
+   "status": "ready",
+   "character": "triss",
+   "slot": "c_01_wa__triss",
+   "base_build": "triss_l82_fe_user1b",
+   "tags": [
+    "female",
+    "long",
+    "auburn",
+    "path-tracing",
+    "all-in-one"
+   ],
+   "studio_version": "0.2.1",
+   "description": "Triss as in the All In One 0.2.0 build, baked from the Studio geometry. Base build triss_l82_fe_user1b needs the modtriss_lorehair hair mod installed (it is not shipped).",
+   "mesh_fingerprint": {
+    "guides": 246,
+    "faces": 441
+   },
+   "path": "characters/triss/c_01_wa__triss/jlrouzies-fr__triss-aio-020",
+   "has_preview": true,
+   "commit": "cb91523b3c5fbf456ba1b9ffa8173952131da04d",
+   "sha256": {
+    "pack.json": "f3767a04aa11122129a0846fdf3567b4f111e5f37132a35e6f55b33944d90efb",
+    "edits.hwgroom": "79f90b0a073f84301b575ad6f35c73a5f50d2e36bc928d2ba882a67a98a7020a",
+    "preview.jpg": "1cb58c73454f6940d178be7f86e8da6ea3837ab0cbc2d3422e0b336c1a9b9c41"
+   },
+   "size": 268796
+  },
+  {
+   "name": "vesemir-aio-020",
+   "author": "jlrouzies-fr",
+   "version": "1.0.0",
+   "status": "ready",
+   "character": "vesemir",
+   "slot": "c_01_mb__vesemir",
+   "base_build": "vesemir",
+   "tags": [
+    "male",
+    "long",
+    "white",
+    "all-in-one"
+   ],
+   "studio_version": "0.2.1",
+   "description": "Vesemir as in the All In One 0.2.0 build (baked geometry + look), applies on any base of the character. Needs Studio 0.2.1 or newer.",
+   "mesh_fingerprint": {
+    "guides": 300,
+    "faces": 552
+   },
+   "path": "characters/vesemir/c_01_mb__vesemir/jlrouzies-fr__vesemir-aio-020",
+   "has_preview": true,
+   "commit": "cb91523b3c5fbf456ba1b9ffa8173952131da04d",
+   "sha256": {
+    "pack.json": "4752ff2874b7c6543304ecb6e3ce8e4796268cf68088732fba6cba8e2213c465",
+    "edits.hwgroom": "11f4ec0f6d38b5c068916b393a92601ef0704f3a41c4fb5592853fe21b862824",
+    "preview.jpg": "c2291801577f22979aeafec98930dd9dbae6d885ed4ea022f6c8e858bd98dbd8"
+   },
+   "size": 257962
   }
  ]
 }
