@@ -1,0 +1,46 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "Groom Studio edits (hwgroom)",
+ "type": "object",
+ "required": ["format", "version", "character", "ops"],
+ "additionalProperties": false,
+ "properties": {
+  "format": {"const": "hwgroom"},
+  "version": {"const": 1},
+  "character": {"type": "string"},
+  "tol": {"type": "number", "exclusiveMinimum": 0, "maximum": 0.05},
+  "params": {"type": "object", "description": "parameter overrides, name -> number/bool/string", "additionalProperties": {"type": ["number", "boolean", "string"]}},
+  "ops": {"type": "array", "maxItems": 20000, "items": {"$ref": "#/$defs/op"}}
+ },
+ "$defs": {
+  "vec3": {"type": "array", "items": {"type": "number"}, "minItems": 3, "maxItems": 3},
+  "roots": {"type": "array", "items": {"$ref": "#/$defs/vec3"}, "minItems": 1},
+  "op": {
+   "type": "object",
+   "oneOf": [
+    {"properties": {"type": {"const": "translate"}, "roots": {"$ref": "#/$defs/roots"}, "offset": {"$ref": "#/$defs/vec3"},
+      "falloff": {"enum": ["carry", "linear", "tip", "point"]}, "from": {"type": "integer", "minimum": 0}},
+     "required": ["type", "roots", "offset"]},
+    {"properties": {"type": {"const": "set_point"}, "root": {"$ref": "#/$defs/vec3"}, "index": {"type": "integer", "minimum": 0},
+      "pos": {"$ref": "#/$defs/vec3"}, "carry": {"type": "boolean"}},
+     "required": ["type", "root", "index", "pos"]},
+    {"properties": {"type": {"const": "shorten"}, "roots": {"$ref": "#/$defs/roots"}, "keep": {"type": "number", "exclusiveMinimum": 0, "maximum": 1}},
+     "required": ["type", "roots", "keep"]},
+    {"properties": {"type": {"const": "delete"}, "roots": {"$ref": "#/$defs/roots"}}, "required": ["type", "roots"]},
+    {"properties": {"op": {"const": "duplicate"}, "type": {"const": "duplicate"}, "root": {"$ref": "#/$defs/vec3"}, "d": {"$ref": "#/$defs/vec3"}, "id": {"type": "integer"}},
+     "required": ["root", "d"], "anyOf": [{"required": ["op"]}, {"required": ["type"]}]},
+    {"properties": {"type": {"const": "reshape"}, "root": {"$ref": "#/$defs/vec3"}, "points": {"type": "array", "items": {"$ref": "#/$defs/vec3"}, "minItems": 2}},
+     "required": ["type", "root", "points"]},
+    {"properties": {"type": {"const": "mirror"}, "source": {"enum": ["+x", "-x"]}, "plane_x": {"type": ["number", "string"]}, "source_roots": {"type": "array", "items": {"$ref": "#/$defs/vec3"}, "description": "resolved at export: roots of the guides mirrored from the source side"}, "band": {"type": "number"},
+      "ymin": {"type": "number"}, "ymax": {"type": "number"}, "zmin": {"type": "number"}, "zmax": {"type": "number"},
+      "conform": {"type": "number"}, "lateral": {"type": "object"}, "ear_shift": {"type": "object"}},
+     "required": ["type", "source"]},
+    {"properties": {"type": {"const": "delete_face"}, "roots": {"type": "array", "items": {"$ref": "#/$defs/vec3"}, "minItems": 3, "maxItems": 3},
+      "face": {"type": "integer", "minimum": -1, "description": "index into the base mesh faces (checked against pack.json mesh_fingerprint); -1 = a face made by earlier ops, found by roots"}},
+     "required": ["type", "roots", "face"]},
+    {"properties": {"type": {"const": "rebuild"}, "kind": {"enum": ["from_cards"]}, "params": {"type": "object"}, "studio_version": {"type": "string"}},
+     "required": ["type", "kind", "params", "studio_version"], "additionalProperties": false}
+   ]
+  }
+ }
+}

@@ -1,0 +1,40 @@
+# Pull requests: validate the submitted packs with the validator and schemas of the BASE branch (a PR cannot
+# change the rules it is checked with). Read-only token, no secrets, nothing from the PR is executed.
+name: validate
+on:
+  pull_request:
+    branches: [main, testing]
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Trusted tools (base branch)
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          ref: ${{ github.event.pull_request.base.sha }}
+          path: trusted
+          persist-credentials: false
+      - name: Submitted packs (PR head, data only)
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+          path: pr
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
+        with:
+          python-version: '3.12'
+      - run: pip install --no-cache-dir jsonschema==4.23.0
+      - name: Validate
+        env:
+          PR_AUTHOR: ${{ github.event.pull_request.user.login }}
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+        run: |
+          git -C pr fetch -q --depth=1 origin "$BASE_SHA"
+          git -C pr diff --name-only "$BASE_SHA"...HEAD > changed.txt
+          # the PR's schema / tools / workflow files are never used; changes to them are refused by the path check
+          rm -rf pr/schema pr/tools && cp -r trusted/schema pr/schema
+          python trusted/tools/validate_pack.py pr --author "$PR_AUTHOR" --changed changed.txt

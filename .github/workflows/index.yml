@@ -1,0 +1,36 @@
+# After a merge: re-validate and publish the pack index (with the commit and each file's SHA-256) to the
+# "index" branch as <channel>.json. The Studio reads only that index and downloads files from the pinned commit.
+name: index
+on:
+  push:
+    branches: [main, testing]
+permissions:
+  contents: write
+concurrency:
+  group: index
+  cancel-in-progress: false
+jobs:
+  index:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
+        with:
+          python-version: '3.12'
+      - run: pip install --no-cache-dir jsonschema==4.23.0
+      - run: python tools/validate_pack.py .
+      - name: Publish index
+        env:
+          CHANNEL: ${{ github.ref_name }}
+        run: |
+          python tools/build_index.py .
+          mv index.json "$RUNNER_TEMP/$CHANNEL.json"
+          git config user.name "community-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git fetch origin index; then git checkout -B index origin/index; else git checkout --orphan index && git rm -rfq .; fi
+          cp "$RUNNER_TEMP/$CHANNEL.json" "$CHANNEL.json"
+          git add "$CHANNEL.json"
+          git diff --cached --quiet || (git commit -m "index: $CHANNEL @ ${GITHUB_SHA::12}" && git push origin index)

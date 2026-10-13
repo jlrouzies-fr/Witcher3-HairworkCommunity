@@ -1,0 +1,24 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "HairWorks community pack",
+ "type": "object",
+ "required": ["name", "author", "version", "status", "character", "slot", "base_build", "tags", "studio_version"],
+ "additionalProperties": false,
+ "properties": {
+  "name": {"type": "string", "pattern": "^[a-z0-9][a-z0-9-]{0,39}$"},
+  "author": {"type": "string", "pattern": "^[A-Za-z0-9-]{1,39}$"},
+  "version": {"type": "string", "pattern": "^(0|[1-9][0-9]*)\\.(0|[1-9][0-9]*)\\.(0|[1-9][0-9]*)(-[0-9A-Za-z.-]+)?$"},
+  "status": {"enum": ["wip", "ready"]},
+  "character": {"type": "string", "pattern": "^[a-z0-9_]+$"},
+  "slot": {"type": "string", "description": "mesh path of the hair slot (a name only, no file shipped)"},
+  "base_build": {"type": "string"},
+  "tags": {"type": "array", "items": {"type": "string"}, "maxItems": 12},
+  "studio_version": {"type": "string"},
+  "description": {"type": "string", "maxLength": 500},
+  "mesh_fingerprint": {"type": "object", "required": ["guides", "faces"], "additionalProperties": false,
+    "properties": {"guides": {"type": "integer", "minimum": 0}, "faces": {"type": "integer", "minimum": 0}},
+    "description": "vertex (guide) and face count of the base groom the delete_face indices refer to (counts only, no mesh data)"},
+  "based_on": {"type": "string", "pattern": "^[A-Za-z0-9-]+__[a-z0-9-]+(@[0-9a-f]{7,40})?$"},
+  "based_on_version": {"type": "string", "description": "version of based_on this pack was derived from (3-way merge base for Studio sync)", "pattern": "^(0|[1-9][0-9]*)\\.(0|[1-9][0-9]*)\\.(0|[1-9][0-9]*)(-[0-9A-Za-z.-]+)?$"}
+ }
+}
