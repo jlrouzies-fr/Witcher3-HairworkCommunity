@@ -9,7 +9,7 @@
   "version": {"const": 1},
   "character": {"type": "string"},
   "tol": {"type": "number", "exclusiveMinimum": 0, "maximum": 0.05},
-  "params": {"type": "object", "description": "parameter overrides, name -> number/bool/string", "additionalProperties": {"type": ["number", "boolean", "string"]}},
+  "params": {"type": "object", "description": "look / material overrides, parameter path -> number, bool, string, list of numbers (max 16) or colour / vector object (R,G,B,A or X,Y,Z,W)", "additionalProperties": {"oneOf": [{"type": ["number", "boolean", "string"]}, {"type": "array", "maxItems": 16, "items": {"type": "number"}}, {"type": "object", "maxProperties": 4, "additionalProperties": {"type": "number"}}]}},
   "ops": {"type": "array", "maxItems": 20000, "items": {"$ref": "#/$defs/op"}}
  },
  "$defs": {
@@ -38,7 +38,7 @@
     {"properties": {"type": {"const": "delete_face"}, "roots": {"type": "array", "items": {"$ref": "#/$defs/vec3"}, "minItems": 3, "maxItems": 3},
       "face": {"type": "integer", "minimum": -1, "description": "index into the base mesh faces (checked against pack.json mesh_fingerprint); -1 = a face made by earlier ops, found by roots"}},
      "required": ["type", "roots", "face"]},
-    {"properties": {"type": {"const": "rebuild"}, "kind": {"enum": ["from_cards"]}, "params": {"type": "object"}, "studio_version": {"type": "string"}},
+    {"properties": {"type": {"const": "rebuild"}, "kind": {"enum": ["from_cards", "baked"], "description": "from_cards = parametric (the Studio replays its own algorithm); baked = geometry snapshot in params: guides [[x,y,z]*K], uv [[u,v]], faces [[i,j,k]], face_uv [[u0,v0,u1,v1,u2,v2]]; replaces every guide of the loaded groom"}, "params": {"type": "object"}, "studio_version": {"type": "string"}},
      "required": ["type", "kind", "params", "studio_version"], "additionalProperties": false}
    ]
   }

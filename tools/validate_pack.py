@@ -52,6 +52,9 @@ def check_pack(root, d, schemas):
             errs.append(f'{rel}/pack.json: delete_face ops need mesh_fingerprint')
         if any(o.get('type') == 'rebuild' for o in ops) and not meta.get('studio_version'):
             errs.append(f'{rel}/pack.json: rebuild ops need studio_version')
+        for o in ops:
+            if o.get('type') == 'rebuild' and o.get('kind') == 'baked':
+                errs += [f'{rel}/edits.hwgroom: {m}' for m in _check_baked(o['params'])]
         if not _sane(doc):
             errs.append(f'{rel}/edits.hwgroom: values out of range (non-finite, huge or too deeply nested)')
     except Exception as e:
@@ -78,6 +81,31 @@ def check_pack(root, d, schemas):
                     errs.append(f'{rel}/{fn}: SDK identifiers found')
     if total > MAX_PACK:
         errs.append(f'{rel}: pack over 2MB')
+    return errs
+
+
+def _check_baked(p):
+    """baked rebuild: guides / uv / faces / face_uv must agree in length, indices in range, one point count per guide"""
+    errs = []
+    for k in ('guides', 'uv', 'faces', 'face_uv'):
+        if not isinstance(p.get(k), list):
+            return [f'baked rebuild needs a "{k}" list']
+    g, uv, f, fuv = p['guides'], p['uv'], p['faces'], p['face_uv']
+    if not g or not f:
+        errs.append('baked rebuild is empty')
+    if len(uv) != len(g):
+        errs.append('baked rebuild: uv count differs from guide count')
+    if len(fuv) != len(f):
+        errs.append('baked rebuild: face_uv count differs from face count')
+    ks = {len(x) if isinstance(x, list) else -1 for x in g}
+    if len(ks) != 1 or not 2 <= next(iter(ks)) <= 64:
+        errs.append('baked rebuild: every guide needs the same number of points (2..64)')
+    if not all(isinstance(x, list) and len(x) == 3 for q in g if isinstance(q, list) for x in q):
+        errs.append('baked rebuild: guide points must be [x, y, z]')
+    if not all(isinstance(x, list) and len(x) == 3 and all(isinstance(i, int) and 0 <= i < len(g) for i in x) for x in f):
+        errs.append('baked rebuild: faces must be 3 guide indices in range')
+    if not all(isinstance(x, list) and len(x) == 6 for x in fuv) or not all(isinstance(x, list) and len(x) == 2 for x in uv):
+        errs.append('baked rebuild: uv / face_uv have the wrong shape')
     return errs
 
 
