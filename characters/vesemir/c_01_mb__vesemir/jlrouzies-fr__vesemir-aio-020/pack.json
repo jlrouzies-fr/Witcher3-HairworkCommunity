@@ -1,0 +1,21 @@
+{
+ "name": "vesemir-aio-020",
+ "author": "jlrouzies-fr",
+ "version": "1.0.0",
+ "status": "ready",
+ "character": "vesemir",
+ "slot": "c_01_mb__vesemir",
+ "base_build": "vesemir",
+ "tags": [
+  "male",
+  "long",
+  "white",
+  "all-in-one"
+ ],
+ "studio_version": "0.2.1",
+ "description": "Vesemir as in the All In One 0.2.0 build (baked geometry + look), applies on any base of the character. Needs Studio 0.2.1 or newer.",
+ "mesh_fingerprint": {
+  "guides": 300,
+  "faces": 552
+ }
+}

@@ -1,0 +1,21 @@
+{
+ "name": "avallach-aio-020",
+ "author": "jlrouzies-fr",
+ "version": "1.0.0",
+ "status": "ready",
+ "character": "avallach",
+ "slot": "c_07_ma__avallach",
+ "base_build": "avallach",
+ "tags": [
+  "male",
+  "long",
+  "white",
+  "all-in-one"
+ ],
+ "studio_version": "0.2.1",
+ "description": "Avallach as in the All In One 0.2.0 build (baked geometry + look), applies on any base of the character. Needs Studio 0.2.1 or newer.",
+ "mesh_fingerprint": {
+  "guides": 407,
+  "faces": 716
+ }
+}

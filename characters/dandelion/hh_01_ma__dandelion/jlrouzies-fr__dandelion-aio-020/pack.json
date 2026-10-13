@@ -1,0 +1,21 @@
+{
+ "name": "dandelion-aio-020",
+ "author": "jlrouzies-fr",
+ "version": "1.0.0",
+ "status": "ready",
+ "character": "dandelion",
+ "slot": "hh_01_ma__dandelion",
+ "base_build": "dandelion",
+ "tags": [
+  "male",
+  "medium",
+  "brown",
+  "all-in-one"
+ ],
+ "studio_version": "0.2.1",
+ "description": "Dandelion as in the All In One 0.2.0 build (baked geometry + look), applies on any base of the character. Needs Studio 0.2.1 or newer.",
+ "mesh_fingerprint": {
+  "guides": 320,
+  "faces": 566
+ }
+}

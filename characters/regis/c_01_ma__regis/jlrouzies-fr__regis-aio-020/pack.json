@@ -1,0 +1,21 @@
+{
+ "name": "regis-aio-020",
+ "author": "jlrouzies-fr",
+ "version": "1.0.0",
+ "status": "ready",
+ "character": "regis",
+ "slot": "c_01_ma__regis",
+ "base_build": "regis",
+ "tags": [
+  "male",
+  "short",
+  "grey",
+  "all-in-one"
+ ],
+ "studio_version": "0.2.1",
+ "description": "Regis as in the All In One 0.2.0 build (baked geometry + look), applies on any base of the character. Needs Studio 0.2.1 or newer.",
+ "mesh_fingerprint": {
+  "guides": 260,
+  "faces": 454
+ }
+}
