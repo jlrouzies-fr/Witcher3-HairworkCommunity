@@ -1,4 +1,60 @@
 {
  "version": 1,
- "packs": []
+ "packs": [
+  {
+   "name": "guillaume-locks-mcp7",
+   "author": "jlrouzies-fr",
+   "version": "1.0.0",
+   "status": "wip",
+   "character": "guillaume",
+   "slot": "c_01_ma_guillaume",
+   "base_build": "guillaume_l124_locks_hug",
+   "tags": [
+    "male",
+    "long",
+    "wavy"
+   ],
+   "studio_version": "0.2.0",
+   "description": "Guillaume: curled locks edited from the locks_hug base build. Work in progress.",
+   "path": "characters/guillaume/c_01_ma_guillaume/jlrouzies-fr__guillaume-locks-mcp7",
+   "has_preview": true,
+   "commit": "670c595923c8f71f02b33d203284c6ab690bd7d8",
+   "sha256": {
+    "pack.json": "9f4fb9b3452e3b6d377f7878e3e520b1bdc3184e80b6850163985c6f4513c6b7",
+    "edits.hwgroom": "d14ebb363a89cc647d846b03304317907dcb8178a61da6fbd010b1e4d41550af",
+    "preview.jpg": "42efb8341db53a82183892618b798c8d03fad876be7aeb995701b61c64dcd260"
+   },
+   "size": 505870
+  },
+  {
+   "name": "lambert-slicked-me3",
+   "author": "jlrouzies-fr",
+   "version": "1.0.0",
+   "status": "ready",
+   "character": "lambert",
+   "slot": "hh_01_ma__lambert",
+   "base_build": "lambert_l279_env20off35",
+   "tags": [
+    "male",
+    "short",
+    "slicked",
+    "path-tracing"
+   ],
+   "studio_version": "0.2.0",
+   "description": "Lambert: fuller front hair, groomed in Hairwork Studio. Basis of the All In One 0.2.0 Lambert (path-tracing friendly).",
+   "mesh_fingerprint": {
+    "faces": 886,
+    "guides": 485
+   },
+   "path": "characters/lambert/hh_01_ma__lambert/jlrouzies-fr__lambert-slicked-me3",
+   "has_preview": true,
+   "commit": "670c595923c8f71f02b33d203284c6ab690bd7d8",
+   "sha256": {
+    "pack.json": "0681b42fce16f8d1c4ea1e2cbb8e0a84ebb27021464f003c73e7fcc206ac2b26",
+    "edits.hwgroom": "9de5b8dc9692aefbb97c953d231dea1b7b7736562bedf919fcc8679f5f9496e1",
+    "preview.jpg": "c7bd565d885516ef27a3e061892cb69e8f9e07c322d3e5959ce9842930dce54d"
+   },
+   "size": 449637
+  }
+ ]
 }
