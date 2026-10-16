@@ -1,0 +1,20 @@
+{
+ "name": "radovid-beard-aio-l336",
+ "author": "jlrouzies-fr",
+ "version": "1.0.0",
+ "status": "ready",
+ "character": "radovid",
+ "slot": "hb_01_ma__radovid",
+ "base_build": "radovid_l336_user",
+ "tags": [
+  "male",
+  "beard",
+  "all-in-one"
+ ],
+ "studio_version": "0.2.1",
+ "description": "Radovid V hair as in the All In One (build radovid_l336_user): baked geometry + look, applies on any base of the character. Needs Studio 0.2.1 or newer.",
+ "mesh_fingerprint": {
+  "guides": 1008,
+  "faces": 1846
+ }
+}

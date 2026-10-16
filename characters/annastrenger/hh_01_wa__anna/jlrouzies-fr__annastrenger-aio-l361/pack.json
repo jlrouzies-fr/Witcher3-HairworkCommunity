@@ -1,0 +1,19 @@
+{
+ "name": "annastrenger-aio-l361",
+ "author": "jlrouzies-fr",
+ "version": "1.0.0",
+ "status": "ready",
+ "character": "annastrenger",
+ "slot": "hh_01_wa__anna",
+ "base_build": "annastrenger_l361_user",
+ "tags": [
+  "female",
+  "all-in-one"
+ ],
+ "studio_version": "0.2.1",
+ "description": "Anna Strenger hair as in the All In One (build annastrenger_l361_user): baked geometry + look, applies on any base of the character. Needs Studio 0.2.1 or newer.",
+ "mesh_fingerprint": {
+  "guides": 295,
+  "faces": 485
+ }
+}

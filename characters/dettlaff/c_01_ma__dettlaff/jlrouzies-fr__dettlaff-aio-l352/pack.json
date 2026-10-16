@@ -1,0 +1,19 @@
+{
+ "name": "dettlaff-aio-l352",
+ "author": "jlrouzies-fr",
+ "version": "1.0.0",
+ "status": "ready",
+ "character": "dettlaff",
+ "slot": "c_01_ma__dettlaff",
+ "base_build": "dettlaff_l352_user",
+ "tags": [
+  "male",
+  "all-in-one"
+ ],
+ "studio_version": "0.2.1",
+ "description": "Dettlaff hair as in the All In One (build dettlaff_l352_user): baked geometry + look, applies on any base of the character. Needs Studio 0.2.1 or newer.",
+ "mesh_fingerprint": {
+  "guides": 2324,
+  "faces": 4429
+ }
+}

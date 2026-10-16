@@ -1,0 +1,19 @@
+{
+ "name": "guillaume-aio-l275",
+ "author": "jlrouzies-fr",
+ "version": "1.0.0",
+ "status": "ready",
+ "character": "guillaume",
+ "slot": "c_01_ma_guillaume",
+ "base_build": "guillaume_l275_p09r15c10",
+ "tags": [
+  "male",
+  "all-in-one"
+ ],
+ "studio_version": "0.2.1",
+ "description": "Guillaume hair as in the All In One (build guillaume_l275_p09r15c10): baked geometry + look, applies on any base of the character. Needs Studio 0.2.1 or newer.",
+ "mesh_fingerprint": {
+  "guides": 816,
+  "faces": 1516
+ }
+}

@@ -1,0 +1,20 @@
+{
+ "name": "palmerin-beard-aio-l332",
+ "author": "jlrouzies-fr",
+ "version": "1.0.0",
+ "status": "ready",
+ "character": "palmerin",
+ "slot": "hb_01_ma__palmerin",
+ "base_build": "palmerin_l332_beard",
+ "tags": [
+  "male",
+  "beard",
+  "all-in-one"
+ ],
+ "studio_version": "0.2.1",
+ "description": "Palmerin de Launfal beard as in the All In One (build palmerin_l332_beard): baked geometry + look, applies on any base of the character. Needs Studio 0.2.1 or newer.",
+ "mesh_fingerprint": {
+  "guides": 229,
+  "faces": 387
+ }
+}

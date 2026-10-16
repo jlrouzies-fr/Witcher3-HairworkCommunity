@@ -1,0 +1,19 @@
+{
+ "name": "hjalmar-aio-l327",
+ "author": "jlrouzies-fr",
+ "version": "1.0.0",
+ "status": "ready",
+ "character": "hjalmar",
+ "slot": "c_01_mb__hjalamar",
+ "base_build": "hjalmar_l327_user",
+ "tags": [
+  "male",
+  "all-in-one"
+ ],
+ "studio_version": "0.2.1",
+ "description": "Hjalmar hair as in the All In One (build hjalmar_l327_user): baked geometry + look, applies on any base of the character. Needs Studio 0.2.1 or newer.",
+ "mesh_fingerprint": {
+  "guides": 872,
+  "faces": 1303
+ }
+}

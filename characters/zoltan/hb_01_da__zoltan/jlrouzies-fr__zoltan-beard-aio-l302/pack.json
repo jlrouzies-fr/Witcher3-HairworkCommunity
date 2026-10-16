@@ -1,0 +1,20 @@
+{
+ "name": "zoltan-beard-aio-l302",
+ "author": "jlrouzies-fr",
+ "version": "1.0.0",
+ "status": "ready",
+ "character": "zoltan",
+ "slot": "hb_01_da__zoltan",
+ "base_build": "zoltan_l302_perf",
+ "tags": [
+  "male",
+  "beard",
+  "all-in-one"
+ ],
+ "studio_version": "0.2.1",
+ "description": "Zoltan Chivay beard as in the All In One (build zoltan_l302_perf): baked geometry + look, applies on any base of the character. Needs Studio 0.2.1 or newer.",
+ "mesh_fingerprint": {
+  "guides": 1430,
+  "faces": 2240
+ }
+}

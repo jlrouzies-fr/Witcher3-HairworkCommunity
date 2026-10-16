@@ -1,0 +1,20 @@
+{
+ "name": "menge-beard-aio-l336",
+ "author": "jlrouzies-fr",
+ "version": "1.0.0",
+ "status": "ready",
+ "character": "menge",
+ "slot": "hb_03_mg__menge",
+ "base_build": "menge_l336_user",
+ "tags": [
+  "male",
+  "beard",
+  "all-in-one"
+ ],
+ "studio_version": "0.2.1",
+ "description": "Caleb Menge hair as in the All In One (build menge_l336_user): baked geometry + look, applies on any base of the character. Needs Studio 0.2.1 or newer.",
+ "mesh_fingerprint": {
+  "guides": 528,
+  "faces": 910
+ }
+}
