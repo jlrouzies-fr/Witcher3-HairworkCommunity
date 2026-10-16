@@ -1,0 +1,19 @@
+{
+ "name": "ewald-aio-l367",
+ "author": "jlrouzies-fr",
+ "version": "1.0.0",
+ "status": "ready",
+ "character": "ewald",
+ "slot": "c_03_mg__shaved",
+ "base_build": "ewald_l367_user",
+ "tags": [
+  "male",
+  "all-in-one"
+ ],
+ "studio_version": "0.2.1",
+ "description": "Ewald hair as in the All In One (build ewald_l367_user): baked geometry + look, applies on any base of the character. Needs Studio 0.2.1 or newer.",
+ "mesh_fingerprint": {
+  "guides": 356,
+  "faces": 603
+ }
+}

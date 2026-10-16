@@ -1,0 +1,20 @@
+{
+ "name": "horst-beard-aio-l334",
+ "author": "jlrouzies-fr",
+ "version": "1.0.0",
+ "status": "ready",
+ "character": "horst",
+ "slot": "hb_01_ma__horst_borsody",
+ "base_build": "horst_l334_beard",
+ "tags": [
+  "male",
+  "beard",
+  "all-in-one"
+ ],
+ "studio_version": "0.2.1",
+ "description": "Horst Borsodi beard as in the All In One (build horst_l334_beard): baked geometry + look, applies on any base of the character. Needs Studio 0.2.1 or newer.",
+ "mesh_fingerprint": {
+  "guides": 28,
+  "faces": 37
+ }
+}

@@ -1,0 +1,20 @@
+{
+ "name": "dijkstra-beard-aio-l336",
+ "author": "jlrouzies-fr",
+ "version": "1.0.0",
+ "status": "ready",
+ "character": "dijkstra",
+ "slot": "hb_01_ms__djikstra",
+ "base_build": "dijkstra_l336_user",
+ "tags": [
+  "male",
+  "beard",
+  "all-in-one"
+ ],
+ "studio_version": "0.2.1",
+ "description": "Sigismund Dijkstra hair as in the All In One (build dijkstra_l336_user): baked geometry + look, applies on any base of the character. Needs Studio 0.2.1 or newer.",
+ "mesh_fingerprint": {
+  "guides": 1206,
+  "faces": 2220
+ }
+}

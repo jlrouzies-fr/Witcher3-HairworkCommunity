@@ -1,0 +1,19 @@
+{
+ "name": "yennefer-aio-l365",
+ "author": "jlrouzies-fr",
+ "version": "1.0.0",
+ "status": "ready",
+ "character": "yennefer",
+ "slot": "c_01_wa__yennefer",
+ "base_build": "yennefer_l365_user",
+ "tags": [
+  "female",
+  "all-in-one"
+ ],
+ "studio_version": "0.2.1",
+ "description": "Yennefer hair as in the All In One (build yennefer_l365_user): baked geometry + look, applies on any base of the character. Needs Studio 0.2.1 or newer.",
+ "mesh_fingerprint": {
+  "guides": 3133,
+  "faces": 4119
+ }
+}

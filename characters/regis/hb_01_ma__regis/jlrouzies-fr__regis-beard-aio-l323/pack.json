@@ -1,0 +1,20 @@
+{
+ "name": "regis-beard-aio-l323",
+ "author": "jlrouzies-fr",
+ "version": "1.0.0",
+ "status": "ready",
+ "character": "regis",
+ "slot": "hb_01_ma__regis",
+ "base_build": "regis_l323_user",
+ "tags": [
+  "male",
+  "beard",
+  "all-in-one"
+ ],
+ "studio_version": "0.2.1",
+ "description": "Regis beard as in the All In One (build regis_l323_user): baked geometry + look, applies on any base of the character. Needs Studio 0.2.1 or newer.",
+ "mesh_fingerprint": {
+  "guides": 227,
+  "faces": 388
+ }
+}

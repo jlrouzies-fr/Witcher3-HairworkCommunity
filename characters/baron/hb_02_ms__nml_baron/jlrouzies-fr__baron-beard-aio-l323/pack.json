@@ -1,0 +1,20 @@
+{
+ "name": "baron-beard-aio-l323",
+ "author": "jlrouzies-fr",
+ "version": "1.0.0",
+ "status": "ready",
+ "character": "baron",
+ "slot": "hb_02_ms__nml_baron",
+ "base_build": "baron_l323_user",
+ "tags": [
+  "male",
+  "beard",
+  "all-in-one"
+ ],
+ "studio_version": "0.2.1",
+ "description": "Bloody Baron hair as in the All In One (build baron_l323_user): baked geometry + look, applies on any base of the character. Needs Studio 0.2.1 or newer.",
+ "mesh_fingerprint": {
+  "guides": 1325,
+  "faces": 2447
+ }
+}

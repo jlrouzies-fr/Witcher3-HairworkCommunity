@@ -1,0 +1,19 @@
+{
+ "name": "graden-aio-l357",
+ "author": "jlrouzies-fr",
+ "version": "1.0.0",
+ "status": "ready",
+ "character": "graden",
+ "slot": "c_11_ma__hair_test",
+ "base_build": "graden_l357_user",
+ "tags": [
+  "male",
+  "all-in-one"
+ ],
+ "studio_version": "0.2.1",
+ "description": "Graden hair as in the All In One (build graden_l357_user): baked geometry + look, applies on any base of the character. Needs Studio 0.2.1 or newer.",
+ "mesh_fingerprint": {
+  "guides": 951,
+  "faces": 1595
+ }
+}
