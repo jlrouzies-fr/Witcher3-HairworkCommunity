@@ -1,0 +1,19 @@
+{
+ "name": "zoltan-scalp-aio-l302",
+ "author": "jlrouzies-fr",
+ "version": "1.0.0",
+ "status": "ready",
+ "character": "zoltan",
+ "slot": "scalp_01_da__zoltan",
+ "base_build": "zoltan_l302_perf",
+ "tags": [
+  "male",
+  "all-in-one"
+ ],
+ "studio_version": "0.2.1",
+ "description": "Zoltan Chivay hair as in the All In One (build zoltan_l302_perf): baked geometry + look, applies on any base of the character. Needs Studio 0.2.1 or newer.",
+ "mesh_fingerprint": {
+  "guides": 507,
+  "faces": 923
+ }
+}

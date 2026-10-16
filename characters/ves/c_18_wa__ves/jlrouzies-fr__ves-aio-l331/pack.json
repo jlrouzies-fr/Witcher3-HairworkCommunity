@@ -1,0 +1,19 @@
+{
+ "name": "ves-aio-l331",
+ "author": "jlrouzies-fr",
+ "version": "1.0.0",
+ "status": "ready",
+ "character": "ves",
+ "slot": "c_18_wa__ves",
+ "base_build": "ves_l331_user",
+ "tags": [
+  "female",
+  "all-in-one"
+ ],
+ "studio_version": "0.2.1",
+ "description": "Ves hair as in the All In One (build ves_l331_user): baked geometry + look, applies on any base of the character. Needs Studio 0.2.1 or newer.",
+ "mesh_fingerprint": {
+  "guides": 2243,
+  "faces": 4414
+ }
+}

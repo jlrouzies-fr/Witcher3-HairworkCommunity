@@ -1,0 +1,20 @@
+{
+ "name": "hjalmar-beard-aio-l327",
+ "author": "jlrouzies-fr",
+ "version": "1.0.0",
+ "status": "ready",
+ "character": "hjalmar",
+ "slot": "hb_01_mb_hjalmar",
+ "base_build": "hjalmar_l327_user",
+ "tags": [
+  "male",
+  "beard",
+  "all-in-one"
+ ],
+ "studio_version": "0.2.1",
+ "description": "Hjalmar beard as in the All In One (build hjalmar_l327_user): baked geometry + look, applies on any base of the character. Needs Studio 0.2.1 or newer.",
+ "mesh_fingerprint": {
+  "guides": 631,
+  "faces": 1034
+ }
+}

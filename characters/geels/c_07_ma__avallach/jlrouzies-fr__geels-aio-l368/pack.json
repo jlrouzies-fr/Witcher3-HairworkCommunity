@@ -1,0 +1,19 @@
+{
+ "name": "geels-aio-l368",
+ "author": "jlrouzies-fr",
+ "version": "1.0.0",
+ "status": "ready",
+ "character": "geels",
+ "slot": "c_07_ma__avallach",
+ "base_build": "geels_l368_user",
+ "tags": [
+  "male",
+  "all-in-one"
+ ],
+ "studio_version": "0.2.1",
+ "description": "Ge'els hair as in the All In One (build geels_l368_user): baked geometry + look, applies on any base of the character. Needs Studio 0.2.1 or newer.",
+ "mesh_fingerprint": {
+  "guides": 856,
+  "faces": 1646
+ }
+}
