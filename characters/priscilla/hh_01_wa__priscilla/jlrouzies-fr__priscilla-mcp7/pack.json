@@ -1,0 +1,19 @@
+{
+ "name": "priscilla-mcp7",
+ "author": "jlrouzies-fr",
+ "version": "1.0.0",
+ "status": "wip",
+ "character": "priscilla",
+ "slot": "hh_01_wa__priscilla",
+ "base_build": "priscilla_l146_a",
+ "tags": [
+  "female",
+  "wip"
+ ],
+ "studio_version": "0.2.1",
+ "description": "Priscilla: Studio pass mcp_7 (roots only on the scalp under the beret, fuller volume). Work in progress, not checked in game. Baked geometry + look, applies on any base of the character; needs Studio 0.2.1 or newer.",
+ "mesh_fingerprint": {
+  "guides": 663,
+  "faces": 1155
+ }
+}

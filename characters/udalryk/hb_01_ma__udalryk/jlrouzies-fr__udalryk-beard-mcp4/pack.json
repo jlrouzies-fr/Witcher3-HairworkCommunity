@@ -1,0 +1,20 @@
+{
+ "name": "udalryk-beard-mcp4",
+ "author": "jlrouzies-fr",
+ "version": "1.0.0",
+ "status": "wip",
+ "character": "udalryk",
+ "slot": "hb_01_ma__udalryk",
+ "base_build": "udalryk_l340_hairbeard",
+ "tags": [
+  "male",
+  "beard",
+  "wip"
+ ],
+ "studio_version": "0.2.1",
+ "description": "Udalryk: Studio pass mcp_4 (nape guides to the collar, sides swept back, ears clear). Beard fur of the same project. Work in progress, not checked in game. Baked geometry + look, applies on any base of the character; needs Studio 0.2.1 or newer.",
+ "mesh_fingerprint": {
+  "guides": 742,
+  "faces": 1295
+ }
+}
