@@ -1,0 +1,20 @@
+{
+ "name": "milton-beard-mcp1",
+ "author": "jlrouzies-fr",
+ "version": "1.0.0",
+ "status": "wip",
+ "character": "milton",
+ "slot": "hb_01_mb__bob_milton",
+ "base_build": "milton_l337_plain",
+ "tags": [
+  "male",
+  "beard",
+  "wip"
+ ],
+ "studio_version": "0.2.1",
+ "description": "Milton beard: Studio pass mcp_1 (handlebar moustache reshaped). Work in progress, not checked in game. Baked geometry + look, applies on any base of the character; needs Studio 0.2.1 or newer.",
+ "mesh_fingerprint": {
+  "guides": 920,
+  "faces": 1652
+ }
+}

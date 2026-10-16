@@ -1,0 +1,20 @@
+{
+ "name": "ermion-beard-user1355",
+ "author": "jlrouzies-fr",
+ "version": "1.0.0",
+ "status": "wip",
+ "character": "ermion",
+ "slot": "hb_01_ma__mousesack",
+ "base_build": "ermion_l339_beard",
+ "tags": [
+  "male",
+  "beard",
+  "wip"
+ ],
+ "studio_version": "0.2.1",
+ "description": "Ermion beard: the user's Studio save of mcp_5 (chest-length beard, lip line blended, chest colliders not included). Work in progress, not checked in game. Baked geometry + look, applies on any base of the character; needs Studio 0.2.1 or newer.",
+ "mesh_fingerprint": {
+  "guides": 1011,
+  "faces": 1827
+ }
+}
