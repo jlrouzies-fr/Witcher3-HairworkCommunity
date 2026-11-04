@@ -1,0 +1,19 @@
+{
+ "name": "eveline-aio-l783",
+ "author": "jlrouzies-fr",
+ "version": "1.0.0",
+ "status": "ready",
+ "character": "eveline",
+ "slot": "c_18_wa__ves",
+ "base_build": "eveline",
+ "tags": [
+  "female",
+  "all-in-one"
+ ],
+ "studio_version": "0.2.1",
+ "description": "Eveline Gallo hair as in the All In One (build eveline_l783_lookg): baked geometry + look, applies on any base of the character. Needs Studio 0.2.1 or newer.",
+ "mesh_fingerprint": {
+  "guides": 2016,
+  "faces": 3520
+ }
+}

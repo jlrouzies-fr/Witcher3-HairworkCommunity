@@ -1,0 +1,19 @@
+{
+ "name": "eskel-aio-l871",
+ "author": "jlrouzies-fr",
+ "version": "1.0.0",
+ "status": "ready",
+ "character": "eskel",
+ "slot": "hh_01__eskel",
+ "base_build": "eskel_l871_c1",
+ "tags": [
+  "male",
+  "all-in-one"
+ ],
+ "studio_version": "0.2.1",
+ "description": "Eskel hair as in the All In One (build eskel_l871_c1): baked geometry + look, applies on any base of the character. Needs Studio 0.2.1 or newer.",
+ "mesh_fingerprint": {
+  "guides": 1305,
+  "faces": 2061
+ }
+}

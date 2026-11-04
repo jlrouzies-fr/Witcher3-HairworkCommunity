@@ -1,0 +1,19 @@
+{
+ "name": "oriana-aio-l968",
+ "author": "jlrouzies-fr",
+ "version": "1.0.0",
+ "status": "ready",
+ "character": "oriana",
+ "slot": "c_01_wa__oriana",
+ "base_build": "oriana_l968_user",
+ "tags": [
+  "male",
+  "all-in-one"
+ ],
+ "studio_version": "0.2.1",
+ "description": "Oriana hair as in the All In One (build oriana_l968_user): baked geometry + look, applies on any base of the character. Needs Studio 0.2.1 or newer.",
+ "mesh_fingerprint": {
+  "guides": 2625,
+  "faces": 4202
+ }
+}

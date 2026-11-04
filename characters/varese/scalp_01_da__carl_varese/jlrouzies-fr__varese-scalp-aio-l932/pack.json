@@ -1,0 +1,19 @@
+{
+ "name": "varese-scalp-aio-l932",
+ "author": "jlrouzies-fr",
+ "version": "1.0.0",
+ "status": "ready",
+ "character": "varese",
+ "slot": "scalp_01_da__carl_varese",
+ "base_build": "varese_l932_final",
+ "tags": [
+  "male",
+  "all-in-one"
+ ],
+ "studio_version": "0.2.1",
+ "description": "Carlo Varese hair as in the All In One (build varese_l932_final): baked geometry + look, applies on any base of the character. Needs Studio 0.2.1 or newer.",
+ "mesh_fingerprint": {
+  "guides": 585,
+  "faces": 1066
+ }
+}

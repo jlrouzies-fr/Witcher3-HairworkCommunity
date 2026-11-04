@@ -1,0 +1,19 @@
+{
+ "name": "voorhis-aio-l1270",
+ "author": "jlrouzies-fr",
+ "version": "1.0.0",
+ "status": "ready",
+ "character": "voorhis",
+ "slot": "c_01_ma__voorhis",
+ "base_build": "voorhis_l1270_mcp37",
+ "tags": [
+  "male",
+  "all-in-one"
+ ],
+ "studio_version": "0.2.1",
+ "description": "Morvran Voorhis hair as in the All In One (build voorhis_l1270_mcp37): baked geometry + look, applies on any base of the character. Needs Studio 0.2.1 or newer.",
+ "mesh_fingerprint": {
+  "guides": 3829,
+  "faces": 5878
+ }
+}

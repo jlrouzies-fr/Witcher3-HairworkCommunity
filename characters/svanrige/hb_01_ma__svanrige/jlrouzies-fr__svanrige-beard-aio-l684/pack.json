@@ -1,0 +1,20 @@
+{
+ "name": "svanrige-beard-aio-l684",
+ "author": "jlrouzies-fr",
+ "version": "1.0.0",
+ "status": "ready",
+ "character": "svanrige",
+ "slot": "hb_01_ma__svanrige",
+ "base_build": "svanrige_l684_pick",
+ "tags": [
+  "male",
+  "beard",
+  "all-in-one"
+ ],
+ "studio_version": "0.2.1",
+ "description": "Svanrige beard as in the All In One (build svanrige_l684_pick): baked geometry + look, applies on any base of the character. Needs Studio 0.2.1 or newer.",
+ "mesh_fingerprint": {
+  "guides": 238,
+  "faces": 330
+ }
+}

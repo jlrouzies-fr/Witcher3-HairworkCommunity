@@ -1,0 +1,20 @@
+{
+ "name": "lugos-beard-aio-l951",
+ "author": "jlrouzies-fr",
+ "version": "1.0.0",
+ "status": "ready",
+ "character": "lugos",
+ "slot": "hb_09_mb__lugos_09_01",
+ "base_build": "lugos_l951_user1535",
+ "tags": [
+  "male",
+  "beard",
+  "all-in-one"
+ ],
+ "studio_version": "0.2.1",
+ "description": "Lugos the Mad hair as in the All In One (build lugos_l951_user1535): baked geometry + look, applies on any base of the character. Needs Studio 0.2.1 or newer.",
+ "mesh_fingerprint": {
+  "guides": 1344,
+  "faces": 2364
+ }
+}

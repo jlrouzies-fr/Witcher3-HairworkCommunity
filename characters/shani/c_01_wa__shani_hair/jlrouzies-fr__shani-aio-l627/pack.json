@@ -1,0 +1,19 @@
+{
+ "name": "shani-aio-l627",
+ "author": "jlrouzies-fr",
+ "version": "1.0.0",
+ "status": "ready",
+ "character": "shani",
+ "slot": "c_01_wa__shani_hair",
+ "base_build": "shani_l627_eyefix",
+ "tags": [
+  "male",
+  "all-in-one"
+ ],
+ "studio_version": "0.2.1",
+ "description": "Shani hair as in the All In One (build shani_l627_eyefix): baked geometry + look, applies on any base of the character. Needs Studio 0.2.1 or newer.",
+ "mesh_fingerprint": {
+  "guides": 1043,
+  "faces": 1299
+ }
+}

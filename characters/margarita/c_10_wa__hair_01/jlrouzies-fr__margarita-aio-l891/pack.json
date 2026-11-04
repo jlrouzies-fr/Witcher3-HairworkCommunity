@@ -1,0 +1,19 @@
+{
+ "name": "margarita-aio-l891",
+ "author": "jlrouzies-fr",
+ "version": "1.0.0",
+ "status": "ready",
+ "character": "margarita",
+ "slot": "c_10_wa__hair_01",
+ "base_build": "margarita_l891_s85",
+ "tags": [
+  "female",
+  "all-in-one"
+ ],
+ "studio_version": "0.2.1",
+ "description": "Margarita Laux-Antille hair as in the All In One (build margarita_l891_s85): baked geometry + look, applies on any base of the character. Needs Studio 0.2.1 or newer.",
+ "mesh_fingerprint": {
+  "guides": 2385,
+  "faces": 3091
+ }
+}

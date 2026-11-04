@@ -1,0 +1,19 @@
+{
+ "name": "iris-aio-l955",
+ "author": "jlrouzies-fr",
+ "version": "1.0.0",
+ "status": "ready",
+ "character": "iris",
+ "slot": "c_01_wa__iris",
+ "base_build": "iris_l955_user1556",
+ "tags": [
+  "male",
+  "all-in-one"
+ ],
+ "studio_version": "0.2.1",
+ "description": "Iris von Everec hair as in the All In One (build iris_l955_user1556): baked geometry + look, applies on any base of the character. Needs Studio 0.2.1 or newer.",
+ "mesh_fingerprint": {
+  "guides": 2367,
+  "faces": 4120
+ }
+}
