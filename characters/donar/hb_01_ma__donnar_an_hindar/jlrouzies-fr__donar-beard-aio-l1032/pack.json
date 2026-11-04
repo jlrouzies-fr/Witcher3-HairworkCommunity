@@ -1,0 +1,20 @@
+{
+ "name": "donar-beard-aio-l1032",
+ "author": "jlrouzies-fr",
+ "version": "1.0.0",
+ "status": "ready",
+ "character": "donar",
+ "slot": "hb_01_ma__donnar_an_hindar",
+ "base_build": "donar_l1032_t",
+ "tags": [
+  "male",
+  "beard",
+  "all-in-one"
+ ],
+ "studio_version": "0.2.1",
+ "description": "Donar an Hindar beard as in the All In One (build donar_l1032_t): baked geometry + look, applies on any base of the character. Needs Studio 0.2.1 or newer.",
+ "mesh_fingerprint": {
+  "guides": 1397,
+  "faces": 2561
+ }
+}

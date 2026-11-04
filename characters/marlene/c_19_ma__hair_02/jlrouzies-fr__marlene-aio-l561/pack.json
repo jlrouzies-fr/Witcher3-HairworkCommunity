@@ -1,0 +1,19 @@
+{
+ "name": "marlene-aio-l561",
+ "author": "jlrouzies-fr",
+ "version": "1.0.0",
+ "status": "ready",
+ "character": "marlene",
+ "slot": "c_19_ma__hair_02",
+ "base_build": "marlene_l561_mcp17",
+ "tags": [
+  "male",
+  "all-in-one"
+ ],
+ "studio_version": "0.2.1",
+ "description": "Marlene hair as in the All In One (build marlene_l561_mcp17): baked geometry + look, applies on any base of the character. Needs Studio 0.2.1 or newer.",
+ "mesh_fingerprint": {
+  "guides": 102,
+  "faces": 170
+ }
+}

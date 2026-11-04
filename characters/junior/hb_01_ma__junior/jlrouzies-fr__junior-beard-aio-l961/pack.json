@@ -1,0 +1,20 @@
+{
+ "name": "junior-beard-aio-l961",
+ "author": "jlrouzies-fr",
+ "version": "1.0.0",
+ "status": "ready",
+ "character": "junior",
+ "slot": "hb_01_ma__junior",
+ "base_build": "junior_l961_tiefit",
+ "tags": [
+  "male",
+  "beard",
+  "all-in-one"
+ ],
+ "studio_version": "0.2.1",
+ "description": "Whoreson Junior beard as in the All In One (build junior_l961_tiefit): baked geometry + look, applies on any base of the character. Needs Studio 0.2.1 or newer.",
+ "mesh_fingerprint": {
+  "guides": 912,
+  "faces": 1643
+ }
+}

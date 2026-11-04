@@ -1,0 +1,20 @@
+{
+ "name": "crach-beard-aio-l816",
+ "author": "jlrouzies-fr",
+ "version": "1.0.0",
+ "status": "ready",
+ "character": "crach",
+ "slot": "hb_01_mb__skelige_crach",
+ "base_build": "crach_l816_user0602",
+ "tags": [
+  "male",
+  "beard",
+  "all-in-one"
+ ],
+ "studio_version": "0.2.1",
+ "description": "Crach an Craite beard as in the All In One (build crach_l816_user0602): baked geometry + look, applies on any base of the character. Needs Studio 0.2.1 or newer.",
+ "mesh_fingerprint": {
+  "guides": 691,
+  "faces": 1164
+ }
+}

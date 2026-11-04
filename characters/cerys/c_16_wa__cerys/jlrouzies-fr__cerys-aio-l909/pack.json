@@ -1,0 +1,19 @@
+{
+ "name": "cerys-aio-l909",
+ "author": "jlrouzies-fr",
+ "version": "1.0.0",
+ "status": "ready",
+ "character": "cerys",
+ "slot": "c_16_wa__cerys",
+ "base_build": "cerys_l909_m13",
+ "tags": [
+  "male",
+  "all-in-one"
+ ],
+ "studio_version": "0.2.1",
+ "description": "Cerys an Craite hair as in the All In One (build cerys_l909_m13): baked geometry + look, applies on any base of the character. Needs Studio 0.2.1 or newer.",
+ "mesh_fingerprint": {
+  "guides": 1770,
+  "faces": 3382
+ }
+}

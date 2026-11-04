@@ -1,0 +1,19 @@
+{
+ "name": "philippa-aio-l887",
+ "author": "jlrouzies-fr",
+ "version": "1.0.0",
+ "status": "ready",
+ "character": "philippa",
+ "slot": "c_01_wa__filippa",
+ "base_build": "philippa_l887_u1646",
+ "tags": [
+  "male",
+  "all-in-one"
+ ],
+ "studio_version": "0.2.1",
+ "description": "Philippa Eilhart hair as in the All In One (build philippa_l887_u1646): baked geometry + look, applies on any base of the character. Needs Studio 0.2.1 or newer.",
+ "mesh_fingerprint": {
+  "guides": 2503,
+  "faces": 4036
+ }
+}

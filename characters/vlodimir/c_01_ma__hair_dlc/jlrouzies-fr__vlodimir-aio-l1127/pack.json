@@ -1,0 +1,19 @@
+{
+ "name": "vlodimir-aio-l1127",
+ "author": "jlrouzies-fr",
+ "version": "1.0.0",
+ "status": "ready",
+ "character": "vlodimir",
+ "slot": "c_01_ma__hair_dlc",
+ "base_build": "vlodimir_l1127_face",
+ "tags": [
+  "male",
+  "all-in-one"
+ ],
+ "studio_version": "0.2.1",
+ "description": "Vlodimir von Everec hair as in the All In One (build vlodimir_l1127_face): baked geometry + look, applies on any base of the character. Needs Studio 0.2.1 or newer.",
+ "mesh_fingerprint": {
+  "guides": 89,
+  "faces": 104
+ }
+}

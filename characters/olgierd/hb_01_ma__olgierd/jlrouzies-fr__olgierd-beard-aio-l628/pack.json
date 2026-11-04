@@ -1,0 +1,20 @@
+{
+ "name": "olgierd-beard-aio-l628",
+ "author": "jlrouzies-fr",
+ "version": "1.0.0",
+ "status": "ready",
+ "character": "olgierd",
+ "slot": "hb_01_ma__olgierd",
+ "base_build": "olgierd_l628_redbeard",
+ "tags": [
+  "male",
+  "beard",
+  "all-in-one"
+ ],
+ "studio_version": "0.2.1",
+ "description": "Olgierd von Everec beard as in the All In One (build olgierd_l628_redbeard): baked geometry + look, applies on any base of the character. Needs Studio 0.2.1 or newer.",
+ "mesh_fingerprint": {
+  "guides": 1084,
+  "faces": 1994
+ }
+}

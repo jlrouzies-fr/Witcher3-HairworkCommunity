@@ -1,0 +1,19 @@
+{
+ "name": "crach-aio-l816",
+ "author": "jlrouzies-fr",
+ "version": "1.0.0",
+ "status": "ready",
+ "character": "crach",
+ "slot": "c_01_mb__crach",
+ "base_build": "crach_l816_user0602",
+ "tags": [
+  "male",
+  "all-in-one"
+ ],
+ "studio_version": "0.2.1",
+ "description": "Crach an Craite hair as in the All In One (build crach_l816_user0602): baked geometry + look, applies on any base of the character. Needs Studio 0.2.1 or newer.",
+ "mesh_fingerprint": {
+  "guides": 831,
+  "faces": 1443
+ }
+}

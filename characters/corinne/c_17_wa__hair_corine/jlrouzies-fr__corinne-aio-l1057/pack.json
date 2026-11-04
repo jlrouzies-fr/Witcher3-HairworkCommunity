@@ -1,0 +1,19 @@
+{
+ "name": "corinne-aio-l1057",
+ "author": "jlrouzies-fr",
+ "version": "1.0.0",
+ "status": "ready",
+ "character": "corinne",
+ "slot": "c_17_wa__hair_corine",
+ "base_build": "corinne_l1057_m38la",
+ "tags": [
+  "male",
+  "all-in-one"
+ ],
+ "studio_version": "0.2.1",
+ "description": "Corinne Tilly hair as in the All In One (build corinne_l1057_m38la): baked geometry + look, applies on any base of the character. Needs Studio 0.2.1 or newer.",
+ "mesh_fingerprint": {
+  "guides": 1770,
+  "faces": 2740
+ }
+}

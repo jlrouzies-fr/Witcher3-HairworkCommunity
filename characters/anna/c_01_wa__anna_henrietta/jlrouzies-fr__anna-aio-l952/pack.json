@@ -1,0 +1,19 @@
+{
+ "name": "anna-aio-l952",
+ "author": "jlrouzies-fr",
+ "version": "1.0.0",
+ "status": "ready",
+ "character": "anna",
+ "slot": "c_01_wa__anna_henrietta",
+ "base_build": "anna_l952_user1540",
+ "tags": [
+  "male",
+  "all-in-one"
+ ],
+ "studio_version": "0.2.1",
+ "description": "Anna Henrietta hair as in the All In One (build anna_l952_user1540): baked geometry + look, applies on any base of the character. Needs Studio 0.2.1 or newer.",
+ "mesh_fingerprint": {
+  "guides": 2711,
+  "faces": 4069
+ }
+}
