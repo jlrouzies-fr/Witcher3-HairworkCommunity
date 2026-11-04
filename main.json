@@ -2,6 +2,34 @@
  "version": 1,
  "packs": [
   {
+   "name": "anna-aio-l952",
+   "author": "jlrouzies-fr",
+   "version": "1.0.0",
+   "status": "ready",
+   "character": "anna",
+   "slot": "c_01_wa__anna_henrietta",
+   "base_build": "anna_l952_user1540",
+   "tags": [
+    "male",
+    "all-in-one"
+   ],
+   "studio_version": "0.2.1",
+   "description": "Anna Henrietta hair as in the All In One (build anna_l952_user1540): baked geometry + look, applies on any base of the character. Needs Studio 0.2.1 or newer.",
+   "mesh_fingerprint": {
+    "guides": 2711,
+    "faces": 4069
+   },
+   "path": "characters/anna/c_01_wa__anna_henrietta/jlrouzies-fr__anna-aio-l952",
+   "has_preview": true,
+   "commit": "9d8940d1faa812acdd3c482460f93a43778f844c",
+   "sha256": {
+    "pack.json": "697734a2e2038bd7d6efca8af68eee753b266245c3b718ba0eb37b3e41ec3672",
+    "edits.hwgroom": "67b7787556d8a7a29851efcc950f6a469158951ff6cd777f4f564e0b52aa9879",
+    "preview.jpg": "6cf2bd1d20d5893beb7ae68eb5502123d2600f199099f1aac3562c4020d07812"
+   },
+   "size": 1372822
+  },
+  {
    "name": "annastrenger-aio-l361",
    "author": "jlrouzies-fr",
    "version": "1.0.0",
@@ -21,7 +49,7 @@
    },
    "path": "characters/annastrenger/hh_01_wa__anna/jlrouzies-fr__annastrenger-aio-l361",
    "has_preview": true,
-   "commit": "f741fff1448a5ea3731e1d26263a3bbf84b2b296",
+   "commit": "9d8940d1faa812acdd3c482460f93a43778f844c",
    "sha256": {
     "pack.json": "ea47ff9f89feebe9a786efac7b04c1369a843f4ddd15aa771e63fa4e5b399a9a",
     "edits.hwgroom": "25f038d5e0014f24e0d01c137e6e2caf313bcfad25b9a0d839baf183b386e5e4",
@@ -51,7 +79,7 @@
    },
    "path": "characters/avallach/c_07_ma__avallach/jlrouzies-fr__avallach-aio-020",
    "has_preview": true,
-   "commit": "f741fff1448a5ea3731e1d26263a3bbf84b2b296",
+   "commit": "9d8940d1faa812acdd3c482460f93a43778f844c",
    "sha256": {
     "pack.json": "efbe5ca17de55247af207e7e4075d70305f3ad79c5758cd3acc1534572c073c8",
     "edits.hwgroom": "22f64724c9de0b13e32f3d0328d164eddaf2cebecd2d37d6314a729799018705",
@@ -80,7 +108,7 @@
    },
    "path": "characters/baron/hb_02_ms__nml_baron/jlrouzies-fr__baron-beard-aio-l323",
    "has_preview": true,
-   "commit": "f741fff1448a5ea3731e1d26263a3bbf84b2b296",
+   "commit": "9d8940d1faa812acdd3c482460f93a43778f844c",
    "sha256": {
     "pack.json": "5182ac1a49606c94a82b44371b28733038c2f80f9d8bbce660e7095e949c45ca",
     "edits.hwgroom": "bd39a98872d20d30a25ae736bdbf598f410145e59ad12d32560d5eb7bfe158ed",
@@ -110,13 +138,41 @@
    },
    "path": "characters/c04ma/c_10_ma__hair/jlrouzies-fr__c04ma-aio-020",
    "has_preview": true,
-   "commit": "f741fff1448a5ea3731e1d26263a3bbf84b2b296",
+   "commit": "9d8940d1faa812acdd3c482460f93a43778f844c",
    "sha256": {
     "pack.json": "ea1a2fe85eedae4663b475c50a271c2e934577db375e1e4b0a45ab0ccd4a4354",
     "edits.hwgroom": "642993304f23458488817fc1dcc9ce5613f8795558db1d998adebfc7cb4b24d9",
     "preview.jpg": "1e56771e8d98f330f82bb1f8ee7dde57c24b575a948f709aec9cf1b05ff3fcdd"
    },
    "size": 297238
+  },
+  {
+   "name": "cerys-aio-l909",
+   "author": "jlrouzies-fr",
+   "version": "1.0.0",
+   "status": "ready",
+   "character": "cerys",
+   "slot": "c_16_wa__cerys",
+   "base_build": "cerys_l909_m13",
+   "tags": [
+    "male",
+    "all-in-one"
+   ],
+   "studio_version": "0.2.1",
+   "description": "Cerys an Craite hair as in the All In One (build cerys_l909_m13): baked geometry + look, applies on any base of the character. Needs Studio 0.2.1 or newer.",
+   "mesh_fingerprint": {
+    "guides": 1770,
+    "faces": 3382
+   },
+   "path": "characters/cerys/c_16_wa__cerys/jlrouzies-fr__cerys-aio-l909",
+   "has_preview": true,
+   "commit": "9d8940d1faa812acdd3c482460f93a43778f844c",
+   "sha256": {
+    "pack.json": "31db8be700305e14428aa051b6835f2068a412c2c4a0d49490522c367bff41c7",
+    "edits.hwgroom": "9b9b5f2f86f2663251b30be2b71298a54d4cce15990172f18d7e6c259ddc3f44",
+    "preview.jpg": "22a191c5645c33ae0151a18bfa44e364539bad15f9c70fa4b7d62c96dc8eeee6"
+   },
+   "size": 961034
   },
   {
    "name": "ciri-aio-020",
@@ -140,13 +196,127 @@
    },
    "path": "characters/ciri/ciri_hair/jlrouzies-fr__ciri-aio-020",
    "has_preview": true,
-   "commit": "f741fff1448a5ea3731e1d26263a3bbf84b2b296",
+   "commit": "9d8940d1faa812acdd3c482460f93a43778f844c",
    "sha256": {
     "pack.json": "6174ad7058c38a700f7ec0a7989e8f438adaa46a207702bd46d95949cd23d565",
     "edits.hwgroom": "e35120359c73fd50df7d037b2cecf87d4746667b913646876ad12d5ba873a95f",
     "preview.jpg": "2a1a7da5f9388e06af0d0cf884f3654856c74b52fdab4fc7083140e8ae612bdd"
    },
    "size": 174289
+  },
+  {
+   "name": "corinne-aio-l1057",
+   "author": "jlrouzies-fr",
+   "version": "1.0.0",
+   "status": "ready",
+   "character": "corinne",
+   "slot": "c_17_wa__hair_corine",
+   "base_build": "corinne_l1057_m38la",
+   "tags": [
+    "male",
+    "all-in-one"
+   ],
+   "studio_version": "0.2.1",
+   "description": "Corinne Tilly hair as in the All In One (build corinne_l1057_m38la): baked geometry + look, applies on any base of the character. Needs Studio 0.2.1 or newer.",
+   "mesh_fingerprint": {
+    "guides": 1770,
+    "faces": 2740
+   },
+   "path": "characters/corinne/c_17_wa__hair_corine/jlrouzies-fr__corinne-aio-l1057",
+   "has_preview": true,
+   "commit": "9d8940d1faa812acdd3c482460f93a43778f844c",
+   "sha256": {
+    "pack.json": "8ccc159d3db261b3cb24a16e91f2654e01dcf60f1ee8f5e6c6fe57782e503dd5",
+    "edits.hwgroom": "c9c8db1af2d281dd84cfda339efcd64cad823e36ab121c97d76913b7c3d0f6db",
+    "preview.jpg": "a29d5aea2141c228c99b0e249f72fa859d8535d9f213d4a075358ef491683cf6"
+   },
+   "size": 539738
+  },
+  {
+   "name": "crach-aio-l816",
+   "author": "jlrouzies-fr",
+   "version": "1.0.0",
+   "status": "ready",
+   "character": "crach",
+   "slot": "c_01_mb__crach",
+   "base_build": "crach_l816_user0602",
+   "tags": [
+    "male",
+    "all-in-one"
+   ],
+   "studio_version": "0.2.1",
+   "description": "Crach an Craite hair as in the All In One (build crach_l816_user0602): baked geometry + look, applies on any base of the character. Needs Studio 0.2.1 or newer.",
+   "mesh_fingerprint": {
+    "guides": 831,
+    "faces": 1443
+   },
+   "path": "characters/crach/c_01_mb__crach/jlrouzies-fr__crach-aio-l816",
+   "has_preview": true,
+   "commit": "9d8940d1faa812acdd3c482460f93a43778f844c",
+   "sha256": {
+    "pack.json": "6f1c1049cdac42ef1038ee3dc0426037cf3329bd3941f127781da76f7af17c79",
+    "edits.hwgroom": "e8dfcb6c4926c764bdc64d1fd16ff873fcd2bcd0ac7c6541cec2d8f3894199b0",
+    "preview.jpg": "33761f1ce72d166d4a32b6961513b386fd4531a6def23c7cd7ebf3f39bf76733"
+   },
+   "size": 322352
+  },
+  {
+   "name": "crach-beard-aio-l816",
+   "author": "jlrouzies-fr",
+   "version": "1.0.0",
+   "status": "ready",
+   "character": "crach",
+   "slot": "hb_01_mb__skelige_crach",
+   "base_build": "crach_l816_user0602",
+   "tags": [
+    "male",
+    "beard",
+    "all-in-one"
+   ],
+   "studio_version": "0.2.1",
+   "description": "Crach an Craite beard as in the All In One (build crach_l816_user0602): baked geometry + look, applies on any base of the character. Needs Studio 0.2.1 or newer.",
+   "mesh_fingerprint": {
+    "guides": 691,
+    "faces": 1164
+   },
+   "path": "characters/crach/hb_01_mb__skelige_crach/jlrouzies-fr__crach-beard-aio-l816",
+   "has_preview": true,
+   "commit": "9d8940d1faa812acdd3c482460f93a43778f844c",
+   "sha256": {
+    "pack.json": "dad571dea6fee484882b2c6f26667dd34ae162cf6b313678cb076c182b266cd0",
+    "edits.hwgroom": "d80af5e59c8d11ea3def634998a38504b60cd3d30aef6f9920680f67194a60dd",
+    "preview.jpg": "63aa710e88fcd970281981966fcc86b1ed8975ae0948211c07bbbe510d0943d3"
+   },
+   "size": 228284
+  },
+  {
+   "name": "damien-beard-aio-l899",
+   "author": "jlrouzies-fr",
+   "version": "1.0.0",
+   "status": "ready",
+   "character": "damien",
+   "slot": "hb_01_mb__damien_de_la_tour",
+   "base_build": "damien_l899_user1908",
+   "tags": [
+    "male",
+    "beard",
+    "all-in-one"
+   ],
+   "studio_version": "0.2.1",
+   "description": "Damien de la Tour hair as in the All In One (build damien_l899_user1908): baked geometry + look, applies on any base of the character. Needs Studio 0.2.1 or newer.",
+   "mesh_fingerprint": {
+    "guides": 275,
+    "faces": 457
+   },
+   "path": "characters/damien/hb_01_mb__damien_de_la_tour/jlrouzies-fr__damien-beard-aio-l899",
+   "has_preview": true,
+   "commit": "9d8940d1faa812acdd3c482460f93a43778f844c",
+   "sha256": {
+    "pack.json": "c030d24b164a0dbbb2e0c90f73718830f3622b01fbebd6826bb9c963da4237a2",
+    "edits.hwgroom": "c5779ed59614053408f30df4524c4f4a10b88c895aaef00258bc186326c1a4fe",
+    "preview.jpg": "acf1bccf457b287091e0eeba1dc83634dddcfaee9fe59b9cda1d5726e5935349"
+   },
+   "size": 140032
   },
   {
    "name": "dandelion-aio-020",
@@ -170,7 +340,7 @@
    },
    "path": "characters/dandelion/hh_01_ma__dandelion/jlrouzies-fr__dandelion-aio-020",
    "has_preview": true,
-   "commit": "f741fff1448a5ea3731e1d26263a3bbf84b2b296",
+   "commit": "9d8940d1faa812acdd3c482460f93a43778f844c",
    "sha256": {
     "pack.json": "c720a54ffa23db7b5134dff0bac65ae000b9978b064aca63782a3d5e03534ba1",
     "edits.hwgroom": "15369d230b27ac2fa883d83288ce17fc13b943a06b67b18f8c7d8488c202bfa9",
@@ -198,7 +368,7 @@
    },
    "path": "characters/dettlaff/c_01_ma__dettlaff/jlrouzies-fr__dettlaff-aio-l352",
    "has_preview": true,
-   "commit": "f741fff1448a5ea3731e1d26263a3bbf84b2b296",
+   "commit": "9d8940d1faa812acdd3c482460f93a43778f844c",
    "sha256": {
     "pack.json": "6017a809f2be05624330dfacf9c1bf54b56db88d8c4c613270f649d05be336f1",
     "edits.hwgroom": "99ca0d4e5f5f769e6f32ebd0661b2690074cb9971ad740f5b8cf04d23fb3d320",
@@ -227,13 +397,70 @@
    },
    "path": "characters/dijkstra/hb_01_ms__djikstra/jlrouzies-fr__dijkstra-beard-aio-l336",
    "has_preview": true,
-   "commit": "f741fff1448a5ea3731e1d26263a3bbf84b2b296",
+   "commit": "9d8940d1faa812acdd3c482460f93a43778f844c",
    "sha256": {
     "pack.json": "7f7f132995a86b72796bab54bb592af84e7182c05fdd945bf9c915d7a860eaa2",
     "edits.hwgroom": "28e78acaece2bce6542fe62d81532eb31b5dd5bf1427443ed21c08ff3d52acd2",
     "preview.jpg": "b86152eb460abd14d68e295d0443c9fb0895c9ae6a20d437e5ed6c6b222adba1"
    },
    "size": 361043
+  },
+  {
+   "name": "donar-aio-l1032",
+   "author": "jlrouzies-fr",
+   "version": "1.0.0",
+   "status": "ready",
+   "character": "donar",
+   "slot": "c_01_ma__donnar_an_hindar",
+   "base_build": "donar_l1032_t",
+   "tags": [
+    "male",
+    "all-in-one"
+   ],
+   "studio_version": "0.2.1",
+   "description": "Donar an Hindar hair as in the All In One (build donar_l1032_t): baked geometry + look, applies on any base of the character. Needs Studio 0.2.1 or newer.",
+   "mesh_fingerprint": {
+    "guides": 265,
+    "faces": 433
+   },
+   "path": "characters/donar/c_01_ma__donnar_an_hindar/jlrouzies-fr__donar-aio-l1032",
+   "has_preview": true,
+   "commit": "9d8940d1faa812acdd3c482460f93a43778f844c",
+   "sha256": {
+    "pack.json": "1178742924bdbe92deb0be1e58e538736a09b421400126b9b9132cbf9f01d2ff",
+    "edits.hwgroom": "538c1cf844e5218453ea87ed33b1048f386db6dcfe9845fd08d20060b7c96c81",
+    "preview.jpg": "cff70f6ef9d999996dd7c5b4925dec3a57183a02c61fe9c3dc2379d338304b8f"
+   },
+   "size": 133581
+  },
+  {
+   "name": "donar-beard-aio-l1032",
+   "author": "jlrouzies-fr",
+   "version": "1.0.0",
+   "status": "ready",
+   "character": "donar",
+   "slot": "hb_01_ma__donnar_an_hindar",
+   "base_build": "donar_l1032_t",
+   "tags": [
+    "male",
+    "beard",
+    "all-in-one"
+   ],
+   "studio_version": "0.2.1",
+   "description": "Donar an Hindar beard as in the All In One (build donar_l1032_t): baked geometry + look, applies on any base of the character. Needs Studio 0.2.1 or newer.",
+   "mesh_fingerprint": {
+    "guides": 1397,
+    "faces": 2561
+   },
+   "path": "characters/donar/hb_01_ma__donnar_an_hindar/jlrouzies-fr__donar-beard-aio-l1032",
+   "has_preview": true,
+   "commit": "9d8940d1faa812acdd3c482460f93a43778f844c",
+   "sha256": {
+    "pack.json": "fd4630413f53aab01a24a0bba6324970351e3459aebf5be0f44927eabb7e2590",
+    "edits.hwgroom": "bbbb140dcc6af6fa3e3a76c44cee65ea5870e5c7c26b46b5d1feb0e2f97714cd",
+    "preview.jpg": "b4e4549fa762745c991bcedeb4d7d76ab74781c77489743974d3317bf01f7f13"
+   },
+   "size": 560056
   },
   {
    "name": "emhyr-aio-020",
@@ -257,7 +484,7 @@
    },
    "path": "characters/emhyr/c_07_ma__emhyr_hair/jlrouzies-fr__emhyr-aio-020",
    "has_preview": true,
-   "commit": "f741fff1448a5ea3731e1d26263a3bbf84b2b296",
+   "commit": "9d8940d1faa812acdd3c482460f93a43778f844c",
    "sha256": {
     "pack.json": "c0fae886873e36635f93fff0d7c2865f77e90e5d4c91d1227a85c2bfdeeada6c",
     "edits.hwgroom": "5fa456ba656eddb090438c5fc57758b7da8aed77bcc4d8547121561d5e535e9a",
@@ -286,13 +513,69 @@
    },
    "path": "characters/ermion/hb_01_ma__mousesack/jlrouzies-fr__ermion-beard-user1355",
    "has_preview": true,
-   "commit": "f741fff1448a5ea3731e1d26263a3bbf84b2b296",
+   "commit": "9d8940d1faa812acdd3c482460f93a43778f844c",
    "sha256": {
     "pack.json": "8c8494feb5f9568406c3e637e19b752ecb7aa449a6d3ea2ea92c302d54581da9",
     "edits.hwgroom": "d205150882eaa65024828dab7bb135844a2ede37832e5505030522533285680b",
     "preview.jpg": "e4e9e3d1f65aaeda48bbaea9b4cffbfb8b455788bee9b14abfda57fd0404a5d0"
    },
    "size": 313373
+  },
+  {
+   "name": "eskel-aio-l871",
+   "author": "jlrouzies-fr",
+   "version": "1.0.0",
+   "status": "ready",
+   "character": "eskel",
+   "slot": "hh_01__eskel",
+   "base_build": "eskel_l871_c1",
+   "tags": [
+    "male",
+    "all-in-one"
+   ],
+   "studio_version": "0.2.1",
+   "description": "Eskel hair as in the All In One (build eskel_l871_c1): baked geometry + look, applies on any base of the character. Needs Studio 0.2.1 or newer.",
+   "mesh_fingerprint": {
+    "guides": 1305,
+    "faces": 2061
+   },
+   "path": "characters/eskel/hh_01__eskel/jlrouzies-fr__eskel-aio-l871",
+   "has_preview": true,
+   "commit": "9d8940d1faa812acdd3c482460f93a43778f844c",
+   "sha256": {
+    "pack.json": "92798d5d96006820343a654b79377ef24c855e7ce82246a46923a9a2df8b40c5",
+    "edits.hwgroom": "3bb361da6fd74954495dc9457cf687f478589b7e595f50fbbdf943c1f608e40e",
+    "preview.jpg": "65a19e1be7538f66491c13124e70d1624fba60ce3323468d98cea9c07ecc59d6"
+   },
+   "size": 440999
+  },
+  {
+   "name": "eveline-aio-l783",
+   "author": "jlrouzies-fr",
+   "version": "1.0.0",
+   "status": "ready",
+   "character": "eveline",
+   "slot": "c_18_wa__ves",
+   "base_build": "eveline",
+   "tags": [
+    "female",
+    "all-in-one"
+   ],
+   "studio_version": "0.2.1",
+   "description": "Eveline Gallo hair as in the All In One (build eveline_l783_lookg): baked geometry + look, applies on any base of the character. Needs Studio 0.2.1 or newer.",
+   "mesh_fingerprint": {
+    "guides": 2016,
+    "faces": 3520
+   },
+   "path": "characters/eveline/c_18_wa__ves/jlrouzies-fr__eveline-aio-l783",
+   "has_preview": true,
+   "commit": "9d8940d1faa812acdd3c482460f93a43778f844c",
+   "sha256": {
+    "pack.json": "bc4bc5749d1ebeded77aeef2cc17e25ec0f2c5a5f164e95911f56586119e929f",
+    "edits.hwgroom": "2ef631e48a81d9cfdb1c0418342f82100d353865efd12733c18b44f23fe5e236",
+    "preview.jpg": "11b7ce6a51483fe59c605b02274ed2323f82d1a1c962735449e33f07a7b9ede8"
+   },
+   "size": 655440
   },
   {
    "name": "ewald-aio-l367",
@@ -314,7 +597,7 @@
    },
    "path": "characters/ewald/c_03_mg__shaved/jlrouzies-fr__ewald-aio-l367",
    "has_preview": true,
-   "commit": "f741fff1448a5ea3731e1d26263a3bbf84b2b296",
+   "commit": "9d8940d1faa812acdd3c482460f93a43778f844c",
    "sha256": {
     "pack.json": "ec3b000bc759b051ae996243da180a28f583778f05f598b1027eed1e4ca2b603",
     "edits.hwgroom": "23ca3c25977eab55f31a12b61e8ac57ec1a476f3d935523484fe166761084ae1",
@@ -342,7 +625,7 @@
    },
    "path": "characters/geels/c_07_ma__avallach/jlrouzies-fr__geels-aio-l368",
    "has_preview": true,
-   "commit": "f741fff1448a5ea3731e1d26263a3bbf84b2b296",
+   "commit": "9d8940d1faa812acdd3c482460f93a43778f844c",
    "sha256": {
     "pack.json": "d9eca218db494831e28af7d88adaef278989b11729ff7a80fedf7ca91e03cd04",
     "edits.hwgroom": "53d2829ce81f5fe0deaeae842ca05a8dc9f8510518b01fc749fe461af5f7d916",
@@ -370,7 +653,7 @@
    },
    "path": "characters/graden/c_11_ma__hair_test/jlrouzies-fr__graden-aio-l357",
    "has_preview": true,
-   "commit": "f741fff1448a5ea3731e1d26263a3bbf84b2b296",
+   "commit": "9d8940d1faa812acdd3c482460f93a43778f844c",
    "sha256": {
     "pack.json": "c184135163099bcdea974fb127d75bbf5a4d18026904395b6202f86351009a26",
     "edits.hwgroom": "ade39d7b560b3bc5a49b4a25e05e3098d72442f0307a44acb6f19629ffa31459",
@@ -398,7 +681,7 @@
    },
    "path": "characters/guillaume/c_01_ma_guillaume/jlrouzies-fr__guillaume-aio-l275",
    "has_preview": true,
-   "commit": "f741fff1448a5ea3731e1d26263a3bbf84b2b296",
+   "commit": "9d8940d1faa812acdd3c482460f93a43778f844c",
    "sha256": {
     "pack.json": "e6a5eda4de540d2e8f7ea65f7426667beae3840ba38ff430d603346cb4e15676",
     "edits.hwgroom": "8e70e9a31531f3e2daa8e8b1733eff768b2c67bd4653d6a69d5c82ecad20e9c5",
@@ -423,7 +706,7 @@
    "description": "Guillaume: curled locks edited from the locks_hug base build. Work in progress.",
    "path": "characters/guillaume/c_01_ma_guillaume/jlrouzies-fr__guillaume-locks-mcp7",
    "has_preview": true,
-   "commit": "f741fff1448a5ea3731e1d26263a3bbf84b2b296",
+   "commit": "9d8940d1faa812acdd3c482460f93a43778f844c",
    "sha256": {
     "pack.json": "9f4fb9b3452e3b6d377f7878e3e520b1bdc3184e80b6850163985c6f4513c6b7",
     "edits.hwgroom": "d14ebb363a89cc647d846b03304317907dcb8178a61da6fbd010b1e4d41550af",
@@ -451,7 +734,7 @@
    },
    "path": "characters/hjalmar/c_01_mb__hjalamar/jlrouzies-fr__hjalmar-aio-l327",
    "has_preview": true,
-   "commit": "f741fff1448a5ea3731e1d26263a3bbf84b2b296",
+   "commit": "9d8940d1faa812acdd3c482460f93a43778f844c",
    "sha256": {
     "pack.json": "fe083eea19a5524b6c2d5c05595cbf85d4d8621cf68d9b0c6707624044af1582",
     "edits.hwgroom": "3a7ebde43b1172efdbaf1ecca1fabd8c7a7c7da02f89c59ea06d24994b1f0657",
@@ -480,7 +763,7 @@
    },
    "path": "characters/hjalmar/hb_01_mb_hjalmar/jlrouzies-fr__hjalmar-beard-aio-l327",
    "has_preview": true,
-   "commit": "f741fff1448a5ea3731e1d26263a3bbf84b2b296",
+   "commit": "9d8940d1faa812acdd3c482460f93a43778f844c",
    "sha256": {
     "pack.json": "d1b43a9bc37715c80fd29f6e108f916faa2627106fae88da25d122d8d3897d76",
     "edits.hwgroom": "b352900b727a6388779d8124c70079412182d948c2ca2451da6027dfbe4b221f",
@@ -509,13 +792,98 @@
    },
    "path": "characters/horst/hb_01_ma__horst_borsody/jlrouzies-fr__horst-beard-aio-l334",
    "has_preview": true,
-   "commit": "f741fff1448a5ea3731e1d26263a3bbf84b2b296",
+   "commit": "9d8940d1faa812acdd3c482460f93a43778f844c",
    "sha256": {
     "pack.json": "b5387c7ab5bb17580b39a96fea7356481dd484d18176d4b13998a6de87410e48",
     "edits.hwgroom": "17e830a5844560ae90c205e3bac3a06cf5b4abbd25c4dc7ad22fcc4d5a45334d",
     "preview.jpg": "618715c478287c50449ec97968145ac7fbac8ae87f575ba290fdca314f943bde"
    },
    "size": 52909
+  },
+  {
+   "name": "iris-aio-l955",
+   "author": "jlrouzies-fr",
+   "version": "1.0.0",
+   "status": "ready",
+   "character": "iris",
+   "slot": "c_01_wa__iris",
+   "base_build": "iris_l955_user1556",
+   "tags": [
+    "male",
+    "all-in-one"
+   ],
+   "studio_version": "0.2.1",
+   "description": "Iris von Everec hair as in the All In One (build iris_l955_user1556): baked geometry + look, applies on any base of the character. Needs Studio 0.2.1 or newer.",
+   "mesh_fingerprint": {
+    "guides": 2367,
+    "faces": 4120
+   },
+   "path": "characters/iris/c_01_wa__iris/jlrouzies-fr__iris-aio-l955",
+   "has_preview": true,
+   "commit": "9d8940d1faa812acdd3c482460f93a43778f844c",
+   "sha256": {
+    "pack.json": "2cf56b66e388a331ade50db80f0f568490432244b5c6c713d6be5257d40c3dcd",
+    "edits.hwgroom": "ccec805a304aee1c5cc04e8fe0e1e0dbbb0efb3b14417fa9461e7820a56897c8",
+    "preview.jpg": "eed769b57f0ae9b6bedc4158cc5635b7a50cf02e155610964e09808cf9252579"
+   },
+   "size": 1225452
+  },
+  {
+   "name": "junior-aio-l961",
+   "author": "jlrouzies-fr",
+   "version": "1.0.0",
+   "status": "ready",
+   "character": "junior",
+   "slot": "c_01_ma__junior",
+   "base_build": "junior_l961_tiefit",
+   "tags": [
+    "male",
+    "all-in-one"
+   ],
+   "studio_version": "0.2.1",
+   "description": "Whoreson Junior hair as in the All In One (build junior_l961_tiefit): baked geometry + look, applies on any base of the character. Needs Studio 0.2.1 or newer.",
+   "mesh_fingerprint": {
+    "guides": 2347,
+    "faces": 3964
+   },
+   "path": "characters/junior/c_01_ma__junior/jlrouzies-fr__junior-aio-l961",
+   "has_preview": true,
+   "commit": "9d8940d1faa812acdd3c482460f93a43778f844c",
+   "sha256": {
+    "pack.json": "5ff7f88eccd561c7836f418e77935da501b52bba66c2d685fa8d0c3240f06c5f",
+    "edits.hwgroom": "8f2050110c570e534b6c14598301b029cf07e5abc7d9305229ed7310a47f2614",
+    "preview.jpg": "0ea9903c237639a48357fd114a21c044f22f23ca0fd84eb3cdedd442145f4fb7"
+   },
+   "size": 1226799
+  },
+  {
+   "name": "junior-beard-aio-l961",
+   "author": "jlrouzies-fr",
+   "version": "1.0.0",
+   "status": "ready",
+   "character": "junior",
+   "slot": "hb_01_ma__junior",
+   "base_build": "junior_l961_tiefit",
+   "tags": [
+    "male",
+    "beard",
+    "all-in-one"
+   ],
+   "studio_version": "0.2.1",
+   "description": "Whoreson Junior beard as in the All In One (build junior_l961_tiefit): baked geometry + look, applies on any base of the character. Needs Studio 0.2.1 or newer.",
+   "mesh_fingerprint": {
+    "guides": 912,
+    "faces": 1643
+   },
+   "path": "characters/junior/hb_01_ma__junior/jlrouzies-fr__junior-beard-aio-l961",
+   "has_preview": true,
+   "commit": "9d8940d1faa812acdd3c482460f93a43778f844c",
+   "sha256": {
+    "pack.json": "be36d3e539631fcb9bd83689940f61c9487e23c99c716faa8f4e3bf22ea0c7dc",
+    "edits.hwgroom": "2159fb865d015cdfe892544f370b9f602904e76617d0ca314c5fb807014868ea",
+    "preview.jpg": "aa8fd22edc18da17120176ae590bff8c8a1646c6b55f3a192ebc622dbe1cfd84"
+   },
+   "size": 268724
   },
   {
    "name": "keira-aio-020",
@@ -539,7 +907,7 @@
    },
    "path": "characters/keira/c_01_wa__keira_hair/jlrouzies-fr__keira-aio-020",
    "has_preview": true,
-   "commit": "f741fff1448a5ea3731e1d26263a3bbf84b2b296",
+   "commit": "9d8940d1faa812acdd3c482460f93a43778f844c",
    "sha256": {
     "pack.json": "c5869005635b188328542edff706debb39850ae77926f390f5cb0ab10004abb4",
     "edits.hwgroom": "3deb841ca404599c517f8a5e65f1759dd8ac094ed2846341f5c89deb89ebbbb5",
@@ -569,13 +937,98 @@
    },
    "path": "characters/lambert/hh_01_ma__lambert/jlrouzies-fr__lambert-slicked-me3",
    "has_preview": true,
-   "commit": "f741fff1448a5ea3731e1d26263a3bbf84b2b296",
+   "commit": "9d8940d1faa812acdd3c482460f93a43778f844c",
    "sha256": {
     "pack.json": "0681b42fce16f8d1c4ea1e2cbb8e0a84ebb27021464f003c73e7fcc206ac2b26",
     "edits.hwgroom": "9de5b8dc9692aefbb97c953d231dea1b7b7736562bedf919fcc8679f5f9496e1",
     "preview.jpg": "c7bd565d885516ef27a3e061892cb69e8f9e07c322d3e5959ce9842930dce54d"
    },
    "size": 449637
+  },
+  {
+   "name": "lugos-beard-aio-l951",
+   "author": "jlrouzies-fr",
+   "version": "1.0.0",
+   "status": "ready",
+   "character": "lugos",
+   "slot": "hb_09_mb__lugos_09_01",
+   "base_build": "lugos_l951_user1535",
+   "tags": [
+    "male",
+    "beard",
+    "all-in-one"
+   ],
+   "studio_version": "0.2.1",
+   "description": "Lugos the Mad hair as in the All In One (build lugos_l951_user1535): baked geometry + look, applies on any base of the character. Needs Studio 0.2.1 or newer.",
+   "mesh_fingerprint": {
+    "guides": 1344,
+    "faces": 2364
+   },
+   "path": "characters/lugos/hb_09_mb__lugos_09_01/jlrouzies-fr__lugos-beard-aio-l951",
+   "has_preview": true,
+   "commit": "9d8940d1faa812acdd3c482460f93a43778f844c",
+   "sha256": {
+    "pack.json": "157cd1cab6fa7d5e213e45df7638dea360f78d32768d94a353838bce3382d27f",
+    "edits.hwgroom": "2a50674d90ea209966913cc0f947beba96f5a390fe77c7f7934dca60f50f38ca",
+    "preview.jpg": "bc3448449d1b6b2fdf4046cc1dbfc31792cae4fc5290993dcc7b82604a2dc5be"
+   },
+   "size": 389069
+  },
+  {
+   "name": "margarita-aio-l891",
+   "author": "jlrouzies-fr",
+   "version": "1.0.0",
+   "status": "ready",
+   "character": "margarita",
+   "slot": "c_10_wa__hair_01",
+   "base_build": "margarita_l891_s85",
+   "tags": [
+    "female",
+    "all-in-one"
+   ],
+   "studio_version": "0.2.1",
+   "description": "Margarita Laux-Antille hair as in the All In One (build margarita_l891_s85): baked geometry + look, applies on any base of the character. Needs Studio 0.2.1 or newer.",
+   "mesh_fingerprint": {
+    "guides": 2385,
+    "faces": 3091
+   },
+   "path": "characters/margarita/c_10_wa__hair_01/jlrouzies-fr__margarita-aio-l891",
+   "has_preview": true,
+   "commit": "9d8940d1faa812acdd3c482460f93a43778f844c",
+   "sha256": {
+    "pack.json": "3b50d6ca968c55dd63f1d539ba8ef945b3dbea80f59e0fbd5e03c10a7f7ebf9e",
+    "edits.hwgroom": "a5625234d5615d8863faf53f5a0c6244c9f8b8bb6c170bb1a8560f2296af4db2",
+    "preview.jpg": "5edf77ff61f90ab80631dc132137b374d452da7c6d9c380af9c37093ec313717"
+   },
+   "size": 1166841
+  },
+  {
+   "name": "marlene-aio-l561",
+   "author": "jlrouzies-fr",
+   "version": "1.0.0",
+   "status": "ready",
+   "character": "marlene",
+   "slot": "c_19_ma__hair_02",
+   "base_build": "marlene_l561_mcp17",
+   "tags": [
+    "male",
+    "all-in-one"
+   ],
+   "studio_version": "0.2.1",
+   "description": "Marlene hair as in the All In One (build marlene_l561_mcp17): baked geometry + look, applies on any base of the character. Needs Studio 0.2.1 or newer.",
+   "mesh_fingerprint": {
+    "guides": 102,
+    "faces": 170
+   },
+   "path": "characters/marlene/c_19_ma__hair_02/jlrouzies-fr__marlene-aio-l561",
+   "has_preview": true,
+   "commit": "9d8940d1faa812acdd3c482460f93a43778f844c",
+   "sha256": {
+    "pack.json": "539eda9bf8950b22498bb251fb4f57fdae9e249b9565cce9e84d2be7b4b34482",
+    "edits.hwgroom": "eacfeabb8605eb17a5188dfbb7100ce84bf09acd89c00beba9c28ea32dd39b6c",
+    "preview.jpg": "0fa630f80028ce3daeec2056ccf88624786dd48beac9bce2fb4ca4ce58928cc0"
+   },
+   "size": 98959
   },
   {
    "name": "menge-beard-aio-l336",
@@ -598,7 +1051,7 @@
    },
    "path": "characters/menge/hb_03_mg__menge/jlrouzies-fr__menge-beard-aio-l336",
    "has_preview": true,
-   "commit": "f741fff1448a5ea3731e1d26263a3bbf84b2b296",
+   "commit": "9d8940d1faa812acdd3c482460f93a43778f844c",
    "sha256": {
     "pack.json": "e6bf67f79c605fed304a610ef017a39e90ea96660a4d62222457427a557b318a",
     "edits.hwgroom": "e548ac47c21cc5972f47852be1041d6ae5d86ba4410f9d543ff1912d212012d0",
@@ -627,13 +1080,98 @@
    },
    "path": "characters/milton/hb_01_mb__bob_milton/jlrouzies-fr__milton-beard-mcp1",
    "has_preview": true,
-   "commit": "f741fff1448a5ea3731e1d26263a3bbf84b2b296",
+   "commit": "9d8940d1faa812acdd3c482460f93a43778f844c",
    "sha256": {
     "pack.json": "1dfc0ea145a9038f8f9c5c3335e635f94d90e6224a67dcb8385401f66999364d",
     "edits.hwgroom": "226652ef01867246ad6dd8ec231696fc5b131920319e33ba5cc679a45872dc70",
     "preview.jpg": "641835510e28331e7a9cdfb9c2dc33952370f9211e99a356b53b5656a4d5ad43"
    },
    "size": 282756
+  },
+  {
+   "name": "olgierd-aio-l628",
+   "author": "jlrouzies-fr",
+   "version": "1.0.0",
+   "status": "ready",
+   "character": "olgierd",
+   "slot": "c_01_ma__olgierd",
+   "base_build": "olgierd_l628_redbeard",
+   "tags": [
+    "male",
+    "all-in-one"
+   ],
+   "studio_version": "0.2.1",
+   "description": "Olgierd von Everec hair as in the All In One (build olgierd_l628_redbeard): baked geometry + look, applies on any base of the character. Needs Studio 0.2.1 or newer.",
+   "mesh_fingerprint": {
+    "guides": 555,
+    "faces": 974
+   },
+   "path": "characters/olgierd/c_01_ma__olgierd/jlrouzies-fr__olgierd-aio-l628",
+   "has_preview": true,
+   "commit": "9d8940d1faa812acdd3c482460f93a43778f844c",
+   "sha256": {
+    "pack.json": "925c78d68b583924b87e11a95273751fdce36e0be6399b8444241cc894e64557",
+    "edits.hwgroom": "08ac470fd241c55f2c139c7ab2f7245408c076c0e08745989ab16f5aa3ed2196",
+    "preview.jpg": "06dbaa87f3add62bad02eddd3317f362e7e0fc5e196f3bbfe439cf7b23d9d8c1"
+   },
+   "size": 279558
+  },
+  {
+   "name": "olgierd-beard-aio-l628",
+   "author": "jlrouzies-fr",
+   "version": "1.0.0",
+   "status": "ready",
+   "character": "olgierd",
+   "slot": "hb_01_ma__olgierd",
+   "base_build": "olgierd_l628_redbeard",
+   "tags": [
+    "male",
+    "beard",
+    "all-in-one"
+   ],
+   "studio_version": "0.2.1",
+   "description": "Olgierd von Everec beard as in the All In One (build olgierd_l628_redbeard): baked geometry + look, applies on any base of the character. Needs Studio 0.2.1 or newer.",
+   "mesh_fingerprint": {
+    "guides": 1084,
+    "faces": 1994
+   },
+   "path": "characters/olgierd/hb_01_ma__olgierd/jlrouzies-fr__olgierd-beard-aio-l628",
+   "has_preview": true,
+   "commit": "9d8940d1faa812acdd3c482460f93a43778f844c",
+   "sha256": {
+    "pack.json": "e752e6d8f12198552b3cd86d53930d1c3f76abc92bbdb4acd8727fbfbeedf674",
+    "edits.hwgroom": "bc27eadad19dc65d186c772fde9d5b4d180a9c5e198aa13084488e958f2eb40c",
+    "preview.jpg": "9b79ecc5fad375e0437028155cb370ec97e1a8d4fc1049c2a455afc265356ca0"
+   },
+   "size": 303863
+  },
+  {
+   "name": "oriana-aio-l968",
+   "author": "jlrouzies-fr",
+   "version": "1.0.0",
+   "status": "ready",
+   "character": "oriana",
+   "slot": "c_01_wa__oriana",
+   "base_build": "oriana_l968_user",
+   "tags": [
+    "male",
+    "all-in-one"
+   ],
+   "studio_version": "0.2.1",
+   "description": "Oriana hair as in the All In One (build oriana_l968_user): baked geometry + look, applies on any base of the character. Needs Studio 0.2.1 or newer.",
+   "mesh_fingerprint": {
+    "guides": 2625,
+    "faces": 4202
+   },
+   "path": "characters/oriana/c_01_wa__oriana/jlrouzies-fr__oriana-aio-l968",
+   "has_preview": true,
+   "commit": "9d8940d1faa812acdd3c482460f93a43778f844c",
+   "sha256": {
+    "pack.json": "5bbd92600239230364d9dfef62c627b6023c8c5f6c0fd5e9bf3269a04467ab86",
+    "edits.hwgroom": "935bc8e6ca33bc45327701da04ff6f666d0061337081c0368c0941fc3127cf3a",
+    "preview.jpg": "9f100b4fd8266f83b6daeb68bf49cf35c4188b31e1be62bcff3ae5490f8a04f1"
+   },
+   "size": 1593020
   },
   {
    "name": "palmerin-beard-aio-l332",
@@ -656,13 +1194,41 @@
    },
    "path": "characters/palmerin/hb_01_ma__palmerin/jlrouzies-fr__palmerin-beard-aio-l332",
    "has_preview": true,
-   "commit": "f741fff1448a5ea3731e1d26263a3bbf84b2b296",
+   "commit": "9d8940d1faa812acdd3c482460f93a43778f844c",
    "sha256": {
     "pack.json": "0a1181d1c8398da3fac97c7e3cbd66bb429921806e02604280615c3843fcbfff",
     "edits.hwgroom": "a83aa01d374c8e101c47509cd85572fc2e83d40680005f6898b9078bc748706e",
     "preview.jpg": "4cc5480d825c66cdbe934ebd207d425fe54736892777219650e17475f60c1a57"
    },
    "size": 114852
+  },
+  {
+   "name": "philippa-aio-l887",
+   "author": "jlrouzies-fr",
+   "version": "1.0.0",
+   "status": "ready",
+   "character": "philippa",
+   "slot": "c_01_wa__filippa",
+   "base_build": "philippa_l887_u1646",
+   "tags": [
+    "male",
+    "all-in-one"
+   ],
+   "studio_version": "0.2.1",
+   "description": "Philippa Eilhart hair as in the All In One (build philippa_l887_u1646): baked geometry + look, applies on any base of the character. Needs Studio 0.2.1 or newer.",
+   "mesh_fingerprint": {
+    "guides": 2503,
+    "faces": 4036
+   },
+   "path": "characters/philippa/c_01_wa__filippa/jlrouzies-fr__philippa-aio-l887",
+   "has_preview": true,
+   "commit": "9d8940d1faa812acdd3c482460f93a43778f844c",
+   "sha256": {
+    "pack.json": "dfba50abbb2eef850bdbc784981cde0bc7fd8281fc0be2e754c9185f655cf69f",
+    "edits.hwgroom": "67b6cc3ce4b79f8eefd789d44fb11982243f1efec56b9882ac7d47258167ed02",
+    "preview.jpg": "4d755f9a2a0f78cd70e37dfa4438b1eb5abf849964f2a7b036f3c8b02f35eccc"
+   },
+   "size": 1743832
   },
   {
    "name": "priscilla-mcp7",
@@ -684,7 +1250,7 @@
    },
    "path": "characters/priscilla/hh_01_wa__priscilla/jlrouzies-fr__priscilla-mcp7",
    "has_preview": true,
-   "commit": "f741fff1448a5ea3731e1d26263a3bbf84b2b296",
+   "commit": "9d8940d1faa812acdd3c482460f93a43778f844c",
    "sha256": {
     "pack.json": "30368b8eeacaf93a6b394a0008c43096e977af577e07eb319b311898b4d747df",
     "edits.hwgroom": "40a56856c66802a38612882c71b061f7477f64d930748374ac828e40bef3751c",
@@ -713,7 +1279,7 @@
    },
    "path": "characters/radovid/hb_01_ma__radovid/jlrouzies-fr__radovid-beard-aio-l336",
    "has_preview": true,
-   "commit": "f741fff1448a5ea3731e1d26263a3bbf84b2b296",
+   "commit": "9d8940d1faa812acdd3c482460f93a43778f844c",
    "sha256": {
     "pack.json": "b41910568132c629762ba3944609f98ae3867b353da7fb5e329dc822a7604201",
     "edits.hwgroom": "69036a2395ebcadd2c91193fcb8775b5f5e80236a7124f534cdf06d279239ef0",
@@ -743,7 +1309,7 @@
    },
    "path": "characters/regis/c_01_ma__regis/jlrouzies-fr__regis-aio-020",
    "has_preview": true,
-   "commit": "f741fff1448a5ea3731e1d26263a3bbf84b2b296",
+   "commit": "9d8940d1faa812acdd3c482460f93a43778f844c",
    "sha256": {
     "pack.json": "9c196c11f904f67df6d7ac7a51b7cb245efd08079d0791ce44a6d01ea3602938",
     "edits.hwgroom": "57f1e0ccb9c7de7d081dbf183e7374c5f6a88728a1d201a4602cf7f04cebf1d8",
@@ -771,7 +1337,7 @@
    },
    "path": "characters/regis/c_01_ma__regis/jlrouzies-fr__regis-aio-l323",
    "has_preview": true,
-   "commit": "f741fff1448a5ea3731e1d26263a3bbf84b2b296",
+   "commit": "9d8940d1faa812acdd3c482460f93a43778f844c",
    "sha256": {
     "pack.json": "218a4220dbbf2dadf819b0dacd9d92b8b141cf29d58b0881e84fb0164aa87753",
     "edits.hwgroom": "e5f6a10f89e821382ce36d79968812be50ea76a812877a0a2c661f2b38921ec5",
@@ -800,13 +1366,41 @@
    },
    "path": "characters/regis/hb_01_ma__regis/jlrouzies-fr__regis-beard-aio-l323",
    "has_preview": true,
-   "commit": "f741fff1448a5ea3731e1d26263a3bbf84b2b296",
+   "commit": "9d8940d1faa812acdd3c482460f93a43778f844c",
    "sha256": {
     "pack.json": "b9483fa68b780427419230de3c86a47f37c058da55e0aadd8f9e6510d517531d",
     "edits.hwgroom": "1c0d6a408314d6e8cb7c84c5d169c17a6c924393e7d931ed63699529a4790c87",
     "preview.jpg": "f6b6465ce6af3740770c624b310d96f682f6290ed390e9a735d3366741630bde"
    },
    "size": 107509
+  },
+  {
+   "name": "shani-aio-l627",
+   "author": "jlrouzies-fr",
+   "version": "1.0.0",
+   "status": "ready",
+   "character": "shani",
+   "slot": "c_01_wa__shani_hair",
+   "base_build": "shani_l627_eyefix",
+   "tags": [
+    "male",
+    "all-in-one"
+   ],
+   "studio_version": "0.2.1",
+   "description": "Shani hair as in the All In One (build shani_l627_eyefix): baked geometry + look, applies on any base of the character. Needs Studio 0.2.1 or newer.",
+   "mesh_fingerprint": {
+    "guides": 1043,
+    "faces": 1299
+   },
+   "path": "characters/shani/c_01_wa__shani_hair/jlrouzies-fr__shani-aio-l627",
+   "has_preview": true,
+   "commit": "9d8940d1faa812acdd3c482460f93a43778f844c",
+   "sha256": {
+    "pack.json": "617912812768f45d9dfa216bbf34f41a9fee8e9f56da1d59de9dfab4fe36a8ba",
+    "edits.hwgroom": "6dc5ae1acf4873acb08570518e785bb8345638e8e18ae0878a2268cb3544935d",
+    "preview.jpg": "04b7cf725322361363ac3696fa8d1c43cc7e1f5731b55ff3fad89bf4b362b0b2"
+   },
+   "size": 454570
   },
   {
    "name": "sheala-aio-020",
@@ -830,13 +1424,98 @@
    },
    "path": "characters/sheala/c_07_ma__emhyr_hair/jlrouzies-fr__sheala-aio-020",
    "has_preview": true,
-   "commit": "f741fff1448a5ea3731e1d26263a3bbf84b2b296",
+   "commit": "9d8940d1faa812acdd3c482460f93a43778f844c",
    "sha256": {
     "pack.json": "6c11f6641eb5c68d72d188bc895f1f101b13d5ce2d8da8572228cae8ad60e0de",
     "edits.hwgroom": "794c37ec55a91b02fc46b30fc17455f16d1ffc24084e68e41126f3a1dbb9cefa",
     "preview.jpg": "433e8173501aad396d2233a65be699d603b06ea9f6a78d54e3e9749b44ccc1cc"
    },
    "size": 237820
+  },
+  {
+   "name": "svanrige-beard-aio-l684",
+   "author": "jlrouzies-fr",
+   "version": "1.0.0",
+   "status": "ready",
+   "character": "svanrige",
+   "slot": "hb_01_ma__svanrige",
+   "base_build": "svanrige_l684_pick",
+   "tags": [
+    "male",
+    "beard",
+    "all-in-one"
+   ],
+   "studio_version": "0.2.1",
+   "description": "Svanrige beard as in the All In One (build svanrige_l684_pick): baked geometry + look, applies on any base of the character. Needs Studio 0.2.1 or newer.",
+   "mesh_fingerprint": {
+    "guides": 238,
+    "faces": 330
+   },
+   "path": "characters/svanrige/hb_01_ma__svanrige/jlrouzies-fr__svanrige-beard-aio-l684",
+   "has_preview": true,
+   "commit": "9d8940d1faa812acdd3c482460f93a43778f844c",
+   "sha256": {
+    "pack.json": "15a290f7c1890648fb1973a2950efd5af5cbdac694bd2011e6f7ae00ec3ad70f",
+    "edits.hwgroom": "21905a58756208a841be51ddbdcc453bf4d9692bdafdd9e50f2726529f1b40b1",
+    "preview.jpg": "6a9fa4d3a1e0f59d235e246d2cd81e92324b22261efa3fdbcaf21da6e61bdf36"
+   },
+   "size": 93566
+  },
+  {
+   "name": "svanrige-aio-l684",
+   "author": "jlrouzies-fr",
+   "version": "1.0.0",
+   "status": "ready",
+   "character": "svanrige",
+   "slot": "hh_01__svanrige",
+   "base_build": "svanrige_l684_pick",
+   "tags": [
+    "male",
+    "all-in-one"
+   ],
+   "studio_version": "0.2.1",
+   "description": "Svanrige hair as in the All In One (build svanrige_l684_pick): baked geometry + look, applies on any base of the character. Needs Studio 0.2.1 or newer.",
+   "mesh_fingerprint": {
+    "guides": 778,
+    "faces": 788
+   },
+   "path": "characters/svanrige/hh_01__svanrige/jlrouzies-fr__svanrige-aio-l684",
+   "has_preview": true,
+   "commit": "9d8940d1faa812acdd3c482460f93a43778f844c",
+   "sha256": {
+    "pack.json": "a7c0e4e78dd609df9bc90ca78f2cf5619e1e21911dd2a616e33e73e35746ae00",
+    "edits.hwgroom": "1deb8b247b5d7d165324cc14808ef3fc6550a063b2e34ed93a4a6d429a565ae2",
+    "preview.jpg": "b805d50fbb0e875a7842f093bd20434974b810cb0564fe0abf6778b532efe466"
+   },
+   "size": 259136
+  },
+  {
+   "name": "tamara-aio-l1008",
+   "author": "jlrouzies-fr",
+   "version": "1.0.0",
+   "status": "ready",
+   "character": "tamara",
+   "slot": "c_18_wa__tamara",
+   "base_build": "tamara_l1008_user",
+   "tags": [
+    "male",
+    "all-in-one"
+   ],
+   "studio_version": "0.2.1",
+   "description": "Tamara Strenger hair as in the All In One (build tamara_l1008_user): baked geometry + look, applies on any base of the character. Needs Studio 0.2.1 or newer.",
+   "mesh_fingerprint": {
+    "guides": 1474,
+    "faces": 2357
+   },
+   "path": "characters/tamara/c_18_wa__tamara/jlrouzies-fr__tamara-aio-l1008",
+   "has_preview": true,
+   "commit": "9d8940d1faa812acdd3c482460f93a43778f844c",
+   "sha256": {
+    "pack.json": "abf14322230a3a7a133fff65f6a536241c2cd54a12468fa4ff66526090464642",
+    "edits.hwgroom": "1b15a64cff4ff02845e6c521fa902cab6852927e13512c85d997fdbcdb27f31e",
+    "preview.jpg": "3f38d641ab3fd67a840cc217749fa407765a5e66b586808c4694e21098f63725"
+   },
+   "size": 650867
   },
   {
    "name": "triss-aio-020",
@@ -861,7 +1540,7 @@
    },
    "path": "characters/triss/c_01_wa__triss/jlrouzies-fr__triss-aio-020",
    "has_preview": true,
-   "commit": "f741fff1448a5ea3731e1d26263a3bbf84b2b296",
+   "commit": "9d8940d1faa812acdd3c482460f93a43778f844c",
    "sha256": {
     "pack.json": "f3767a04aa11122129a0846fdf3567b4f111e5f37132a35e6f55b33944d90efb",
     "edits.hwgroom": "79f90b0a073f84301b575ad6f35c73a5f50d2e36bc928d2ba882a67a98a7020a",
@@ -889,7 +1568,7 @@
    },
    "path": "characters/udalryk/c_01_ma__udalryk/jlrouzies-fr__udalryk-mcp4",
    "has_preview": true,
-   "commit": "f741fff1448a5ea3731e1d26263a3bbf84b2b296",
+   "commit": "9d8940d1faa812acdd3c482460f93a43778f844c",
    "sha256": {
     "pack.json": "4429c5cc4d47c508433bfa8f4d063bed7975ab1012a7b1b8a55c2105dfa19b1e",
     "edits.hwgroom": "f3f18636732eec907b0c09f1423bfa893c0e1592001159c362c5221215b21841",
@@ -918,13 +1597,70 @@
    },
    "path": "characters/udalryk/hb_01_ma__udalryk/jlrouzies-fr__udalryk-beard-mcp4",
    "has_preview": true,
-   "commit": "f741fff1448a5ea3731e1d26263a3bbf84b2b296",
+   "commit": "9d8940d1faa812acdd3c482460f93a43778f844c",
    "sha256": {
     "pack.json": "674a0a460807176da941d4b48aee7023404075c099f59d86f5198b42f54e1c40",
     "edits.hwgroom": "ac394eea1bc977739df947a5d9c5d30de5cab83138db57d99a10de24eca31fb6",
     "preview.jpg": "eab851f66672c7da8880ae48b88c6f5b720ccae2631edbf1738e06c9d30ee359"
    },
    "size": 223327
+  },
+  {
+   "name": "varese-beard-aio-l932",
+   "author": "jlrouzies-fr",
+   "version": "1.0.0",
+   "status": "ready",
+   "character": "varese",
+   "slot": "hb_01_da__carl_varese",
+   "base_build": "varese_l932_final",
+   "tags": [
+    "male",
+    "beard",
+    "all-in-one"
+   ],
+   "studio_version": "0.2.1",
+   "description": "Carlo Varese beard as in the All In One (build varese_l932_final): baked geometry + look, applies on any base of the character. Needs Studio 0.2.1 or newer.",
+   "mesh_fingerprint": {
+    "guides": 1273,
+    "faces": 2030
+   },
+   "path": "characters/varese/hb_01_da__carl_varese/jlrouzies-fr__varese-beard-aio-l932",
+   "has_preview": true,
+   "commit": "9d8940d1faa812acdd3c482460f93a43778f844c",
+   "sha256": {
+    "pack.json": "626f88323fbbb603af77805155f5d4de9c25fa2caeb57aad74edbe7db24243c2",
+    "edits.hwgroom": "2ccb631c364fb2bf6acfafc1684516c109b7cf9294210d11b29118a9de986d90",
+    "preview.jpg": "b73d7fbe73bcc3de9ad208dc32805d3de637f8517097ae7fa31b5d6522bf7bc9"
+   },
+   "size": 419949
+  },
+  {
+   "name": "varese-scalp-aio-l932",
+   "author": "jlrouzies-fr",
+   "version": "1.0.0",
+   "status": "ready",
+   "character": "varese",
+   "slot": "scalp_01_da__carl_varese",
+   "base_build": "varese_l932_final",
+   "tags": [
+    "male",
+    "all-in-one"
+   ],
+   "studio_version": "0.2.1",
+   "description": "Carlo Varese hair as in the All In One (build varese_l932_final): baked geometry + look, applies on any base of the character. Needs Studio 0.2.1 or newer.",
+   "mesh_fingerprint": {
+    "guides": 585,
+    "faces": 1066
+   },
+   "path": "characters/varese/scalp_01_da__carl_varese/jlrouzies-fr__varese-scalp-aio-l932",
+   "has_preview": true,
+   "commit": "9d8940d1faa812acdd3c482460f93a43778f844c",
+   "sha256": {
+    "pack.json": "9be73888e362d9033d71559fdbc4ba7598b6b2856ac872112598689278f0a637",
+    "edits.hwgroom": "dc33185ec661e2ba6aa4326ec9cb8ef1225eb6169ff4919cb75571e2c20b2a3f",
+    "preview.jpg": "22d38fbc086094d81b864ef0858d5ef509984a6d97be520c2d531064d7bd6672"
+   },
+   "size": 186029
   },
   {
    "name": "ves-aio-l331",
@@ -946,7 +1682,7 @@
    },
    "path": "characters/ves/c_18_wa__ves/jlrouzies-fr__ves-aio-l331",
    "has_preview": true,
-   "commit": "f741fff1448a5ea3731e1d26263a3bbf84b2b296",
+   "commit": "9d8940d1faa812acdd3c482460f93a43778f844c",
    "sha256": {
     "pack.json": "7f566f2ae8b69dc104debaf243e38c44c2e51ecd9ab5c7ace101dcc0b2e8d30b",
     "edits.hwgroom": "9ef13c7ab2a296f44417f36af30120db7b297632d244aba1280d6225f607cd9f",
@@ -976,13 +1712,97 @@
    },
    "path": "characters/vesemir/c_01_mb__vesemir/jlrouzies-fr__vesemir-aio-020",
    "has_preview": true,
-   "commit": "f741fff1448a5ea3731e1d26263a3bbf84b2b296",
+   "commit": "9d8940d1faa812acdd3c482460f93a43778f844c",
    "sha256": {
     "pack.json": "4752ff2874b7c6543304ecb6e3ce8e4796268cf68088732fba6cba8e2213c465",
     "edits.hwgroom": "11f4ec0f6d38b5c068916b393a92601ef0704f3a41c4fb5592853fe21b862824",
     "preview.jpg": "c2291801577f22979aeafec98930dd9dbae6d885ed4ea022f6c8e858bd98dbd8"
    },
    "size": 257962
+  },
+  {
+   "name": "vivienne-aio-l1244",
+   "author": "jlrouzies-fr",
+   "version": "1.0.0",
+   "status": "ready",
+   "character": "vivienne",
+   "slot": "c_03_wa__vivienne",
+   "base_build": "vivienne_l1244_p23",
+   "tags": [
+    "male",
+    "all-in-one"
+   ],
+   "studio_version": "0.2.1",
+   "description": "Vivienne de Tabris hair as in the All In One (build vivienne_l1244_p23): baked geometry + look, applies on any base of the character. Needs Studio 0.2.1 or newer.",
+   "mesh_fingerprint": {
+    "guides": 2061,
+    "faces": 2932
+   },
+   "path": "characters/vivienne/c_03_wa__vivienne/jlrouzies-fr__vivienne-aio-l1244",
+   "has_preview": true,
+   "commit": "9d8940d1faa812acdd3c482460f93a43778f844c",
+   "sha256": {
+    "pack.json": "b5ea0a5827dc4567fd49dcf2574e26a92347127e4c8acfe8c78dfe258a21d859",
+    "edits.hwgroom": "a31ebc16ef6723dc5cb476c5e3a2e0b38fc7ad4f85f0afe2d972d7685433b7b8",
+    "preview.jpg": "73430402ef85180f37b8c953e89f013a6d9b7e4388fb7aea5f08267e44665b3e"
+   },
+   "size": 883165
+  },
+  {
+   "name": "vlodimir-aio-l1127",
+   "author": "jlrouzies-fr",
+   "version": "1.0.0",
+   "status": "ready",
+   "character": "vlodimir",
+   "slot": "c_01_ma__hair_dlc",
+   "base_build": "vlodimir_l1127_face",
+   "tags": [
+    "male",
+    "all-in-one"
+   ],
+   "studio_version": "0.2.1",
+   "description": "Vlodimir von Everec hair as in the All In One (build vlodimir_l1127_face): baked geometry + look, applies on any base of the character. Needs Studio 0.2.1 or newer.",
+   "mesh_fingerprint": {
+    "guides": 89,
+    "faces": 104
+   },
+   "path": "characters/vlodimir/c_01_ma__hair_dlc/jlrouzies-fr__vlodimir-aio-l1127",
+   "has_preview": true,
+   "commit": "9d8940d1faa812acdd3c482460f93a43778f844c",
+   "sha256": {
+    "pack.json": "c56c51629b259be82042d052cea5138fc76cdd4a3d304773866c5b761a3b95ed",
+    "edits.hwgroom": "96dbb84805577d3c7a83e005df41e5d222169fffd87b060c64c14006e2351f58",
+    "preview.jpg": "425cb3daf241c2e48ee5211c7395de5b4f1a501a9d1588517e674a31ab0fde82"
+   },
+   "size": 76057
+  },
+  {
+   "name": "voorhis-aio-l1270",
+   "author": "jlrouzies-fr",
+   "version": "1.0.0",
+   "status": "ready",
+   "character": "voorhis",
+   "slot": "c_01_ma__voorhis",
+   "base_build": "voorhis_l1270_mcp37",
+   "tags": [
+    "male",
+    "all-in-one"
+   ],
+   "studio_version": "0.2.1",
+   "description": "Morvran Voorhis hair as in the All In One (build voorhis_l1270_mcp37): baked geometry + look, applies on any base of the character. Needs Studio 0.2.1 or newer.",
+   "mesh_fingerprint": {
+    "guides": 3829,
+    "faces": 5878
+   },
+   "path": "characters/voorhis/c_01_ma__voorhis/jlrouzies-fr__voorhis-aio-l1270",
+   "has_preview": true,
+   "commit": "9d8940d1faa812acdd3c482460f93a43778f844c",
+   "sha256": {
+    "pack.json": "73514fd9b40422c2045bd54ca3d451084e74ff6ee7a6162f699f2534068c7baf",
+    "edits.hwgroom": "135e9d9d4655cbabf8cea1cf69aad7f2db42778cc4fa7bce49916b8c13395c56",
+    "preview.jpg": "5b73801ec2f4f312cb2d70611d37a1319e746716a7d3e48ebd3b10f749fc4bf5"
+   },
+   "size": 1937084
   },
   {
    "name": "yennefer-aio-l365",
@@ -1004,7 +1824,7 @@
    },
    "path": "characters/yennefer/c_01_wa__yennefer/jlrouzies-fr__yennefer-aio-l365",
    "has_preview": true,
-   "commit": "f741fff1448a5ea3731e1d26263a3bbf84b2b296",
+   "commit": "9d8940d1faa812acdd3c482460f93a43778f844c",
    "sha256": {
     "pack.json": "18dc4b6bedbcb61789b91cc682cf8f4b1ccc83557cc208f66758396afe651ccf",
     "edits.hwgroom": "dec69f5f631c7ed23d0a2fb5a672fadbcec7ff6174d8a222f6899b9282ba91c2",
@@ -1033,7 +1853,7 @@
    },
    "path": "characters/zoltan/hb_01_da__zoltan/jlrouzies-fr__zoltan-beard-aio-l302",
    "has_preview": true,
-   "commit": "f741fff1448a5ea3731e1d26263a3bbf84b2b296",
+   "commit": "9d8940d1faa812acdd3c482460f93a43778f844c",
    "sha256": {
     "pack.json": "0ea1268ecf1b14828b6471bfa1860ea5c66913d958d5f962de91408023e8f614",
     "edits.hwgroom": "b16ef223e5bbb0f9a299aa897db9f857ab87634979083a166b34516630a40038",
@@ -1061,7 +1881,7 @@
    },
    "path": "characters/zoltan/scalp_01_da__zoltan/jlrouzies-fr__zoltan-scalp-aio-l302",
    "has_preview": true,
-   "commit": "f741fff1448a5ea3731e1d26263a3bbf84b2b296",
+   "commit": "9d8940d1faa812acdd3c482460f93a43778f844c",
    "sha256": {
     "pack.json": "930bb824da55d92bf2504257cff4ed6c5fa4e27779fae8783394cf3839ca1bff",
     "edits.hwgroom": "75572a6380752823f8e80983cfb03517696c373c859599f06be2990f24de1d14",
