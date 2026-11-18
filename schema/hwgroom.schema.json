@@ -10,7 +10,21 @@
   "character": {"type": "string"},
   "tol": {"type": "number", "exclusiveMinimum": 0, "maximum": 0.05},
   "params": {"type": "object", "description": "look / material overrides, parameter path -> number, bool, string, list of numbers (max 16) or colour / vector object (R,G,B,A or X,Y,Z,W)", "additionalProperties": {"oneOf": [{"type": ["number", "boolean", "string"]}, {"type": "array", "maxItems": 16, "items": {"type": "number"}}, {"type": "object", "maxProperties": 4, "additionalProperties": {"type": "number"}}]}},
-  "ops": {"type": "array", "maxItems": 20000, "items": {"$ref": "#/$defs/op"}}
+  "ops": {"type": "array", "maxItems": 20000, "items": {"$ref": "#/$defs/op"}},
+  "material": {"type": "string", "pattern": "^[A-Za-z0-9 _().,+'-]{1,96}$", "description": "Studio material preset name (its values are already in params; restores the selection)"},
+  "stiffness": {"type": "object", "additionalProperties": false, "required": ["guides", "s", "r"], "description": "painted per-guide stiffness (s) / root-stiffness (r) multipliers, index = guide index after the ops; applied only when the groom has 'guides' guides",
+   "properties": {"guides": {"type": "integer", "minimum": 1, "maximum": 100000},
+    "s": {"type": "array", "maxItems": 100000, "items": {"type": "number", "minimum": 0, "maximum": 1}},
+    "r": {"type": "array", "maxItems": 100000, "items": {"type": "number", "minimum": 0, "maximum": 1}}}},
+  "colliders": {"type": "object", "additionalProperties": false, "required": ["spheres", "capsules"], "description": "the project's collision set; replaces the fur's own spheres / capsules. Bones by name, local = offset in the bone frame (m)",
+   "properties": {
+    "spheres": {"type": "array", "maxItems": 85, "items": {"type": "object", "required": ["bone", "local", "r"],
+     "properties": {"bone": {"type": "string", "pattern": "^[A-Za-z0-9_]{1,40}$"}, "local": {"$ref": "#/$defs/vec3"}, "r": {"type": "number", "minimum": 0.0005, "maximum": 0.25},
+      "grp": {"type": "integer", "minimum": -1, "maximum": 2}, "tag": {"type": "string", "maxLength": 40}}}},
+    "capsules": {"type": "array", "maxItems": 75, "items": {"type": "array", "minItems": 2, "maxItems": 2, "items": {"type": "integer", "minimum": 0}}},
+    "collision_r": {"type": "object", "description": "sphere index -> collision radius override (m)", "propertyNames": {"pattern": "^[0-9]{1,3}$"}, "additionalProperties": {"type": "number", "minimum": 0.0005, "maximum": 0.25}},
+    "flats": {"type": "object", "maxProperties": 85, "description": "flat colliders (panels of thin capsules): id -> parameters", "propertyNames": {"pattern": "^[0-9]{1,6}$"},
+     "additionalProperties": {"type": "object", "required": ["bone", "c"], "properties": {"bone": {"type": "string", "pattern": "^[A-Za-z0-9_]{1,40}$"}, "c": {"$ref": "#/$defs/vec3"}}}}}}
  },
  "$defs": {
   "vec3": {"type": "array", "items": {"type": "number"}, "minItems": 3, "maxItems": 3},

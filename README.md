@@ -9,6 +9,7 @@ Shared hair edits for the Witcher 3 HairWorks mod, made with Groom Studio. Brows
 
 ## Rules
 - Edit ops only (a `rebuild` op of kind `baked` carries a full geometry snapshot of the final hair: guides, growth faces, uv; needs Studio 0.2.1 or newer): no game files, no NVIDIA SDK material (no .w2mesh/.w2ent/.bundle/.apb/.dll/.lib, no GFSDK/HairWorks SDK headers).
+- `edits.hwgroom` may also carry the project's fur state as it is: `params` (look / material values), `material` (preset name), `stiffness` (painted per-guide map) and `colliders` (spheres by bone name + capsules, at most 85 / 75; replaces the fur's own set). Needs the Studio release after 0.5.0.
 - One folder per author: `characters/<char>/<slot>/<githubuser>__<pack>/` containing `pack.json`, `edits.hwgroom`, optional `preview.png` (<= 300 KB). Pack folder <= 2 MB.
 - A PR may only touch folders whose name starts with your own GitHub user name + `__`.
 - Fork a pack by copying it into your own folder and setting `based_on` in `pack.json` (`<user>__<pack>@<sha>`).

@@ -55,6 +55,7 @@ def check_pack(root, d, schemas):
         for o in ops:
             if o.get('type') == 'rebuild' and o.get('kind') == 'baked':
                 errs += [f'{rel}/edits.hwgroom: {m}' for m in _check_baked(o['params'])]
+        errs += [f'{rel}/edits.hwgroom: {m}' for m in _check_extras(doc)]
         if not _sane(doc):
             errs.append(f'{rel}/edits.hwgroom: values out of range (non-finite, huge or too deeply nested)')
     except Exception as e:
@@ -106,6 +107,23 @@ def _check_baked(p):
         errs.append('baked rebuild: faces must be 3 guide indices in range')
     if not all(isinstance(x, list) and len(x) == 6 for x in fuv) or not all(isinstance(x, list) and len(x) == 2 for x in uv):
         errs.append('baked rebuild: uv / face_uv have the wrong shape')
+    return errs
+
+
+def _check_extras(doc):
+    """colliders / stiffness checks the schema cannot express: capsule indices and collision_r keys in range, list lengths"""
+    errs = []
+    c = doc.get('colliders')
+    if isinstance(c, dict):
+        n = len(c.get('spheres', []))
+        if any(not (0 <= i < n) for cp in c.get('capsules', []) for i in cp if isinstance(i, int)):
+            errs.append('colliders: a capsule uses a sphere index out of range')
+        if any(int(k) >= n for k in c.get('collision_r', {}) if k.isdigit()):
+            errs.append('colliders: collision_r uses a sphere index out of range')
+    st = doc.get('stiffness')
+    if isinstance(st, dict) and isinstance(st.get('guides'), int):
+        if len(st.get('s', [])) != st['guides'] or len(st.get('r', [])) != st['guides']:
+            errs.append('stiffness: s / r must hold one value per guide')
     return errs
 
 
