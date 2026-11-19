@@ -1,0 +1,24 @@
+{
+ "name": "priscilla-soft",
+ "author": "Speedtreee",
+ "version": "1.0.0",
+ "status": "ready",
+ "character": "priscilla",
+ "slot": "hh_01_wa__priscilla",
+ "base_build": "priscilla_l146_a",
+ "tags": [
+  "female",
+  "long",
+  "beret",
+  "collision",
+  "physics"
+ ],
+ "studio_version": "0.5.1",
+ "description": "Priscilla from Hairwork for All 0.4.8, same style: collision only on head, neck and torso3 (the bones her hair rig moves) so it rests on her shoulders and no longer pokes through her neck when she sits or kneels. Softer motion (mass 18, damping 0.15, backstop 0.1) and 104 faces under the beret removed so the hair parts over the shoulder. Baked geometry plus the collider set. Needs a Studio build after 0.5.0.",
+ "mesh_fingerprint": {
+  "guides": 515,
+  "faces": 751
+ },
+ "based_on": "jlrouzies-fr__priscilla-mcp7@9d8940d1faa812acdd3c482460f93a43778f844c",
+ "based_on_version": "1.0.0"
+}
